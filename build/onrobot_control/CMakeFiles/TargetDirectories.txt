@@ -1,0 +1,9 @@
+/home/matteo-melzer/gazebo_test/build/onrobot_control/CMakeFiles/uninstall.dir
+/home/matteo-melzer/gazebo_test/build/onrobot_control/CMakeFiles/onrobot_control_uninstall.dir
+/home/matteo-melzer/gazebo_test/build/onrobot_control/CMakeFiles/test.dir
+/home/matteo-melzer/gazebo_test/build/onrobot_control/CMakeFiles/edit_cache.dir
+/home/matteo-melzer/gazebo_test/build/onrobot_control/CMakeFiles/rebuild_cache.dir
+/home/matteo-melzer/gazebo_test/build/onrobot_control/CMakeFiles/list_install_components.dir
+/home/matteo-melzer/gazebo_test/build/onrobot_control/CMakeFiles/install.dir
+/home/matteo-melzer/gazebo_test/build/onrobot_control/CMakeFiles/install/local.dir
+/home/matteo-melzer/gazebo_test/build/onrobot_control/CMakeFiles/install/strip.dir

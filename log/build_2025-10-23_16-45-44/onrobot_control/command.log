@@ -1,0 +1,2 @@
+Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_control': /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/onrobot_control
+Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_control' returned '1': /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/onrobot_control

@@ -1,0 +1,4 @@
+source;share/ur10e_gazebo_sim/local_setup.bash
+source;share/ur10e_gazebo_sim/local_setup.dsv
+source;share/ur10e_gazebo_sim/local_setup.sh
+source;share/ur10e_gazebo_sim/local_setup.zsh

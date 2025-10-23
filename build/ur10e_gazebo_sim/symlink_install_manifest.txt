@@ -1,0 +1,15 @@
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/ur10e_gazebo_sim
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/ur10e_gazebo_sim
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/environment/ament_prefix_path.sh
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/environment/ament_prefix_path.dsv
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/environment/path.sh
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/environment/path.dsv
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/local_setup.bash
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/local_setup.sh
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/local_setup.zsh
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/local_setup.dsv
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/package.dsv
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ament_index/resource_index/packages/ur10e_gazebo_sim
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/cmake/ur10e_gazebo_simConfig.cmake
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/cmake/ur10e_gazebo_simConfig-version.cmake
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/package.xml

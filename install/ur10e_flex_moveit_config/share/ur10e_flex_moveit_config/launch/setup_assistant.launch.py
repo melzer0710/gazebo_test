@@ -1,0 +1,1 @@
+/home/matteo-melzer/gazebo_test/src/ur10e_flex_moveit_config/launch/setup_assistant.launch.py

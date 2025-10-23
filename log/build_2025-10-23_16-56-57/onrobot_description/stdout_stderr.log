@@ -1,0 +1,119 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_COMPILE_COMMANDS
+
+[0m
+-- Build files have been written to: /home/matteo-melzer/gazebo_test/build/onrobot_description
+-- Install configuration: ""
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/launch
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/launch/test_gazebo.launch.py
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/launch/test.launch.py
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/config
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/config/rg6_v1.yaml
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/config/rg2_v1.yaml
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/config/rg6_v2.yaml
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/onrobot_rg.urdf.xacro
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/onrobot_rg.gazebo.xacro
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/materials.urdf.xacro
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/test.urdf.xacro
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/onrobot_rg.transmission.xacro
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/onrobot_ros2_control.urdf.xacro
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/onrobot_rg.srdf.xacro
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/moment_arm.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/finger_tip_1.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/single_bracket.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/finger_tip.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/body.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/truss_arm.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/finger_tip_2.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/flex_finger.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual/moment_arm.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual/single_bracket.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual/finger_tip.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual/body.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual/truss_arm.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual/flex_finger.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/moment_arm.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/finger_tip_1.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/single_bracket.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/body.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/truss_arm.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/finger_tip_2.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/flex_finger.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/safety_shield.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/moment_arm.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/single_bracket.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/finger_tip.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/body.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/truss_arm.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/flex_finger.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/safety_shield.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/moment_arm.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/body_.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/finger_tip_1.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/single_bracket.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/body.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/truss_arm.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/finger_tip_2.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/flex_finger.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/safety_shield.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/moment_arm.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/single_bracket.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/finger_tip.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/body.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/truss_arm.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/flex_finger.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/safety_shield.stl
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/rviz
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/rviz/urdf.rviz
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/world
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/world/test.sdf
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/ament_index/resource_index/package_run_dependencies/onrobot_description
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/ament_index/resource_index/parent_prefix_path/onrobot_description
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/environment/ament_prefix_path.sh
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/environment/path.sh
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/environment/path.dsv
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/local_setup.bash
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/local_setup.sh
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/local_setup.zsh
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/local_setup.dsv
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/package.dsv
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/ament_index/resource_index/packages/onrobot_description
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/cmake/onrobot_descriptionConfig.cmake
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/cmake/onrobot_descriptionConfig-version.cmake
+-- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/package.xml

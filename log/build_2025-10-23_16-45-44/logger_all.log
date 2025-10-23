@@ -1,0 +1,383 @@
+[0.099s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x718bd688c220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x718bd6809810>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x718bd6809810>>, mixin_verb=('build',))
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.269s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/matteo-melzer/gazebo_test'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['cmake', 'python']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'cmake'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo' with type 'ros.ament_cmake' and name 'ur_simulation_gazebo'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_control) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_control) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_control) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_control) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_control) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_control) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_control) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_control) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/onrobot_ros/onrobot_control' with type 'ros.catkin' and name 'onrobot_control'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_description) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_description) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_description) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_description) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_description) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_description) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_description) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_description) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/onrobot_ros/onrobot_description' with type 'ros.catkin' and name 'onrobot_description'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_gazebo) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_gazebo) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_gazebo) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_gazebo) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_gazebo) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_gazebo) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_gazebo) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_gazebo) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/onrobot_ros/onrobot_gazebo' with type 'ros.catkin' and name 'onrobot_gazebo'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_ros) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_ros) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_ros) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_ros) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_ros) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_ros) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_ros) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/onrobot_ros/onrobot_ros) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/onrobot_ros/onrobot_ros' with type 'ros.catkin' and name 'onrobot_ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_description) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_description) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_description) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_description) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_description) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_description) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_description) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_description) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_description) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_net_ft_driver/net_ft_description' with type 'ros.ament_cmake' and name 'net_ft_description'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster' with type 'ros.ament_cmake' and name 'net_ft_diagnostic_broadcaster'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_driver) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_driver) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_driver) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_driver) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_driver) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_driver) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_driver) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_net_ft_driver/net_ft_driver) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_net_ft_driver/net_ft_driver' with type 'ros.ament_cmake' and name 'net_ft_driver'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_flex_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_flex_moveit_config) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_flex_moveit_config) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_flex_moveit_config) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_flex_moveit_config) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_flex_moveit_config) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_flex_moveit_config) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_flex_moveit_config) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_flex_moveit_config) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur10e_flex_moveit_config' with type 'ros.ament_cmake' and name 'ur10e_flex_moveit_config'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_gazebo_sim) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_gazebo_sim) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_gazebo_sim) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_gazebo_sim) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_gazebo_sim) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_gazebo_sim) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_gazebo_sim) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_gazebo_sim) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur10e_gazebo_sim' with type 'ros.ament_cmake' and name 'ur10e_gazebo_sim'
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.341s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/matteo-melzer/gazebo_test/install
+[0.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 60 installed packages in /home/matteo-melzer/ws_moveit/install
+[0.344s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/matteo-melzer/ros2_ws/install
+[0.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 396 installed packages in /opt/ros/humble
+[0.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.392s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ur_description' is in: /home/matteo-melzer/gazebo_test/install/ur_description, /home/matteo-melzer/ws_moveit/install/ur_description, /home/matteo-melzer/ros2_ws/install/ur_description, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ur_description
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'net_ft_description' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'net_ft_description' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'net_ft_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matteo-melzer/gazebo_test/build/net_ft_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matteo-melzer/gazebo_test/install/net_ft_description', 'merge_install': False, 'path': '/home/matteo-melzer/gazebo_test/src/ros2_net_ft_driver/net_ft_description', 'symlink_install': False, 'test_result_base': None}
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_diagnostic_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_diagnostic_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_diagnostic_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_diagnostic_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_diagnostic_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_diagnostic_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_diagnostic_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_diagnostic_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'net_ft_diagnostic_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'net_ft_diagnostic_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matteo-melzer/gazebo_test/build/net_ft_diagnostic_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster', 'merge_install': False, 'path': '/home/matteo-melzer/gazebo_test/src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'net_ft_driver' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'net_ft_driver' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'net_ft_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'net_ft_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'net_ft_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'net_ft_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'net_ft_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'net_ft_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'net_ft_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'net_ft_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matteo-melzer/gazebo_test/build/net_ft_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matteo-melzer/gazebo_test/install/net_ft_driver', 'merge_install': False, 'path': '/home/matteo-melzer/gazebo_test/src/ros2_net_ft_driver/net_ft_driver', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'onrobot_control' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'onrobot_control' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'onrobot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'onrobot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'onrobot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'onrobot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'onrobot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'onrobot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'onrobot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'onrobot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matteo-melzer/gazebo_test/build/onrobot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matteo-melzer/gazebo_test/install/onrobot_control', 'merge_install': False, 'path': '/home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_control', 'symlink_install': False, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'onrobot_description' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'onrobot_description' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'onrobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'onrobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'onrobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'onrobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'onrobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'onrobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'onrobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'onrobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matteo-melzer/gazebo_test/build/onrobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matteo-melzer/gazebo_test/install/onrobot_description', 'merge_install': False, 'path': '/home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_description', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'onrobot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'onrobot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'onrobot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'onrobot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'onrobot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'onrobot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'onrobot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'onrobot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'onrobot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'onrobot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matteo-melzer/gazebo_test/build/onrobot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matteo-melzer/gazebo_test/install/onrobot_gazebo', 'merge_install': False, 'path': '/home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matteo-melzer/gazebo_test/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matteo-melzer/gazebo_test/install/ur_description', 'merge_install': False, 'path': '/home/matteo-melzer/gazebo_test/src/Universal_Robots_ROS2_Description', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'onrobot_ros' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'onrobot_ros' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'onrobot_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'onrobot_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'onrobot_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'onrobot_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'onrobot_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'onrobot_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'onrobot_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'onrobot_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matteo-melzer/gazebo_test/build/onrobot_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matteo-melzer/gazebo_test/install/onrobot_ros', 'merge_install': False, 'path': '/home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_ros', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'ur10e_gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'ur10e_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'ur10e_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'ur10e_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'ur10e_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'ur10e_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'ur10e_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'ur10e_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'ur10e_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'ur10e_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matteo-melzer/gazebo_test/build/ur10e_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim', 'merge_install': False, 'path': '/home/matteo-melzer/gazebo_test/src/ur10e_gazebo_sim', 'symlink_install': False, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'ur_simulation_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matteo-melzer/gazebo_test/build/ur_simulation_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matteo-melzer/gazebo_test/install/ur_simulation_gazebo', 'merge_install': False, 'path': '/home/matteo-melzer/gazebo_test/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'ur10e_flex_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'ur10e_flex_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'ur10e_flex_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'ur10e_flex_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'ur10e_flex_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'ur10e_flex_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'ur10e_flex_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'ur10e_flex_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'ur10e_flex_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'ur10e_flex_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/matteo-melzer/gazebo_test/build/ur10e_flex_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/matteo-melzer/gazebo_test/install/ur10e_flex_moveit_config', 'merge_install': False, 'path': '/home/matteo-melzer/gazebo_test/src/ur10e_flex_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.401s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.405s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/matteo-melzer/gazebo_test/src/Universal_Robots_ROS2_Description' with build type 'ament_cmake'
+[0.406s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matteo-melzer/gazebo_test/src/Universal_Robots_ROS2_Description'
+[0.408s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.408s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.408s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_control' with build type 'catkin'
+[0.420s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_control'
+[0.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matteo-melzer/gazebo_test/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/Universal_Robots_ROS2_Description -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/ur_description
+[0.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_control': /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/onrobot_control
+[0.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_control' returned '1': /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/onrobot_control
+[0.952s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(onrobot_control)
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/matteo-melzer/gazebo_test/install/onrobot_control' for CMake module files
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/matteo-melzer/gazebo_test/install/onrobot_control' for CMake config files
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/matteo-melzer/gazebo_test/install/onrobot_control/bin'
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/matteo-melzer/gazebo_test/install/onrobot_control/lib/pkgconfig/onrobot_control.pc'
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/matteo-melzer/gazebo_test/install/onrobot_control/lib/python3.10/site-packages'
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/matteo-melzer/gazebo_test/install/onrobot_control/bin'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/matteo-melzer/gazebo_test/install/onrobot_control/share/onrobot_control/package.ps1'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/matteo-melzer/gazebo_test/install/onrobot_control/share/onrobot_control/package.dsv'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/matteo-melzer/gazebo_test/install/onrobot_control/share/onrobot_control/package.sh'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/matteo-melzer/gazebo_test/install/onrobot_control/share/onrobot_control/package.bash'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/matteo-melzer/gazebo_test/install/onrobot_control/share/onrobot_control/package.zsh'
+[0.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/matteo-melzer/gazebo_test/install/onrobot_control/share/colcon-core/packages/onrobot_control)
+[1.302s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.302s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.302s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.303s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.308s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.308s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.308s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.322s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.323s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matteo-melzer/gazebo_test/install/local_setup.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/matteo-melzer/gazebo_test/install/_local_setup_util_ps1.py'
+[1.325s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matteo-melzer/gazebo_test/install/setup.ps1'
+[1.332s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matteo-melzer/gazebo_test/install/local_setup.sh'
+[1.333s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/matteo-melzer/gazebo_test/install/_local_setup_util_sh.py'
+[1.333s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matteo-melzer/gazebo_test/install/setup.sh'
+[1.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matteo-melzer/gazebo_test/install/local_setup.bash'
+[1.337s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matteo-melzer/gazebo_test/install/setup.bash'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/matteo-melzer/gazebo_test/install/local_setup.zsh'
+[1.343s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/matteo-melzer/gazebo_test/install/setup.zsh'
