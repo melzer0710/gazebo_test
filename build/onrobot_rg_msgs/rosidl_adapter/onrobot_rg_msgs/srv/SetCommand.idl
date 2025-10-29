@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from onrobot_rg_msgs/srv/SetCommand.srv
+// generated code does not contain a copyright notice
+
+
+module onrobot_rg_msgs {
+  module srv {
+    struct SetCommand_Request {
+      string command;
+    };
+    struct SetCommand_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

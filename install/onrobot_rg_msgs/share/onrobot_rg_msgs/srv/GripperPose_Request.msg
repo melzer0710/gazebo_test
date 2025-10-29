@@ -1,0 +1,1 @@
+/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs/rosidl_cmake/srv/GripperPose_Request.msg

@@ -1,0 +1,9 @@
+{
+  "package_name": "onrobot_rg_msgs",
+  "non_idl_tuples": [
+    "/home/matteo-melzer/gazebo_test/src/onrobot-ros2/onrobot_rg_msgs:msg/OnRobotRGInput.msg",
+    "/home/matteo-melzer/gazebo_test/src/onrobot-ros2/onrobot_rg_msgs:msg/OnRobotRGOutput.msg",
+    "/home/matteo-melzer/gazebo_test/src/onrobot-ros2/onrobot_rg_msgs:srv/SetCommand.srv",
+    "/home/matteo-melzer/gazebo_test/src/onrobot-ros2/onrobot_rg_msgs:srv/GripperPose.srv"
+  ]
+}

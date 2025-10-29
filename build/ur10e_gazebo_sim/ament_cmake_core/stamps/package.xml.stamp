@@ -26,5 +26,7 @@
   <export>
     <build_type>ament_cmake</build_type>
     <gazebo_ros gazebo_model_path = "/home/matteo-melzer/gazebo_test/install/ur_simulation_gazebo/share"/>
+    <gazebo_ros gazebo_model_path = "/home/matteo-melzer/gazebo_test/install/net_ft_description/share"/>
+    <gazebo_ros gazebo_model_path = "/home/matteo-melzer/gazebo_test/install/onrobot_rg_description/share"/>
   </export>
 </package>

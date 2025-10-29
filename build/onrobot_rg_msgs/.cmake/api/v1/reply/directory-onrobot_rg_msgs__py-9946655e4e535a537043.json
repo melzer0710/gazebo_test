@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "onrobot_rg_msgs__py",
+		"source" : "/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs/onrobot_rg_msgs__py"
+	}
+}

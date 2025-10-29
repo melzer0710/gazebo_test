@@ -1,0 +1,1 @@
+/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs/rosidl_generator_py/onrobot_rg_msgs/srv/_set_command_s.c

@@ -1,0 +1,1 @@
+/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs/ament_cmake_core/onrobot_rg_msgsConfig.cmake

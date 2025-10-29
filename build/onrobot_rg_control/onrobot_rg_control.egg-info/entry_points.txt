@@ -1,0 +1,4 @@
+[console_scripts]
+OnRobotRGController = onrobot_rg_control.OnRobotRGController:main
+OnRobotRGControllerServer = onrobot_rg_control.OnRobotRGControllerServer:main
+

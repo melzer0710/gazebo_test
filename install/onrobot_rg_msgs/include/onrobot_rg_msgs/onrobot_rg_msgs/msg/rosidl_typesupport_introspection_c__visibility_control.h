@@ -1,0 +1,1 @@
+/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs/rosidl_typesupport_introspection_c/onrobot_rg_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

@@ -1,0 +1,25 @@
+[1.252s] Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_driver': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matteo-melzer/gazebo_test/build/onrobot_driver/build --no-deps symlink_data
+[1.668s] running develop
+[2.006s] running egg_info
+[2.007s] creating onrobot_driver.egg-info
+[2.007s] writing onrobot_driver.egg-info/PKG-INFO
+[2.010s] writing dependency_links to onrobot_driver.egg-info/dependency_links.txt
+[2.010s] writing entry points to onrobot_driver.egg-info/entry_points.txt
+[2.010s] writing requirements to onrobot_driver.egg-info/requires.txt
+[2.010s] writing top-level names to onrobot_driver.egg-info/top_level.txt
+[2.010s] writing manifest file 'onrobot_driver.egg-info/SOURCES.txt'
+[2.016s] reading manifest file 'onrobot_driver.egg-info/SOURCES.txt'
+[2.016s] writing manifest file 'onrobot_driver.egg-info/SOURCES.txt'
+[2.021s] running build_ext
+[2.021s] Creating /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot-driver.egg-link (link to .)
+[2.021s] Installing gripper_action_adapter script to /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/onrobot_driver
+[2.022s] Installing test script to /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/onrobot_driver
+[2.022s] 
+[2.022s] Installed /home/matteo-melzer/gazebo_test/build/onrobot_driver
+[2.022s] running symlink_data
+[2.022s] creating /home/matteo-melzer/gazebo_test/install/onrobot_driver/share/ament_index
+[2.025s] creating /home/matteo-melzer/gazebo_test/install/onrobot_driver/share/ament_index/resource_index
+[2.025s] creating /home/matteo-melzer/gazebo_test/install/onrobot_driver/share/ament_index/resource_index/packages
+[2.025s] symbolically linking /home/matteo-melzer/gazebo_test/build/onrobot_driver/resource/onrobot_driver -> /home/matteo-melzer/gazebo_test/install/onrobot_driver/share/ament_index/resource_index/packages
+[2.025s] symbolically linking /home/matteo-melzer/gazebo_test/build/onrobot_driver/package.xml -> /home/matteo-melzer/gazebo_test/install/onrobot_driver/share/onrobot_driver
+[2.107s] Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_driver' returned '0': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matteo-melzer/gazebo_test/build/onrobot_driver/build --no-deps symlink_data

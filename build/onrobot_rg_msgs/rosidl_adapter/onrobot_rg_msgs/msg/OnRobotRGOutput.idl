@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from onrobot_rg_msgs/msg/OnRobotRGOutput.msg
+// generated code does not contain a copyright notice
+
+
+module onrobot_rg_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "rgfr : The target force to be reached when gripping and holding a workpiece." "\n"
+      "       It must be provided in 1/10th Newtons." "\n"
+      "       The valid range is 0 to 400 for the RG2 and 0 to 1200 for the RG6.")
+    struct OnRobotRGOutput {
+      uint16 rgfr;
+
+      @verbatim (language="comment", text=
+        "rgwd : The target width between the finger to be moved to and maintained." "\n"
+        "       It must be provided in 1/10th millimeters." "\n"
+        "       The valid range is 0 to 1100 for the RG2 and 0 to 1600 for the RG6." "\n"
+        "       Please note that the target width should be provided corrected for any fingertip offset," "\n"
+        "       as it is measured between the insides of the aluminum fingers.")
+      uint16 rgwd;
+
+      @verbatim (language="comment", text=
+        "rctr : The control field is used to start and stop gripper motion." "\n"
+        "       Only one option should be set at a time." "\n"
+        "       Please note that the gripper will not start a new motion" "\n"
+        "       before the one currently being executed is done (see busy flag in the Status field)." "\n"
+        "0x0001 - grip" "\n"
+        "         Start the motion, with the preset target force and width." "\n"
+        "         Width is calculated without the fingertip offset." "\n"
+        "         Please note that the gripper will ignore this command" "\n"
+        "         if the busy flag is set in the status field." "\n"
+        "0x0008 - stop" "\n"
+        "         Stop the current motion." "\n"
+        "0x0010 - grip_w_offset" "\n"
+        "         Same as grip, but width is calculated with the set fingertip offset.")
+      uint8 rctr;
+    };
+  };
+};

@@ -1,0 +1,12 @@
+msg/OnRobotRGInput.idl
+msg/OnRobotRGInput.msg
+msg/OnRobotRGOutput.idl
+msg/OnRobotRGOutput.msg
+srv/GripperPose.idl
+srv/GripperPose.srv
+srv/GripperPose_Request.msg
+srv/GripperPose_Response.msg
+srv/SetCommand.idl
+srv/SetCommand.srv
+srv/SetCommand_Request.msg
+srv/SetCommand_Response.msg

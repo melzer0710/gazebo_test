@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from onrobot_rg_msgs/srv/GripperPose.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose2D.idl"
+
+module onrobot_rg_msgs {
+  module srv {
+    struct GripperPose_Request {
+      geometry_msgs::msg::Pose2D known;
+    };
+    struct GripperPose_Response {
+      geometry_msgs::msg::Pose2D pose;
+    };
+  };
+};

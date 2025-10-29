@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-da8b75451529b0f69f4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "onrobot_rg_msgs__py",
+					"jsonFile" : "directory-onrobot_rg_msgs__py-9946655e4e535a537043.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs/onrobot_rg_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "onrobot_rg_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_onrobot_rg_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_onrobot_rg_msgs_egg-4ed923c53be737db4c92.json",
+					"name" : "ament_cmake_python_build_onrobot_rg_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_onrobot_rg_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_onrobot_rg_msgs-9fe22e49b104a42eb2c9.json",
+					"name" : "ament_cmake_python_symlink_onrobot_rg_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs-74b7feedbe91584203d0.json",
+					"name" : "onrobot_rg_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs__cpp-ba30e05404ea0e1e3515.json",
+					"name" : "onrobot_rg_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "onrobot_rg_msgs__py::@34dc354eab72ea0b78ea",
+					"jsonFile" : "target-onrobot_rg_msgs__py-9760a801d67c3a33a28d.json",
+					"name" : "onrobot_rg_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs__rosidl_generator_c-228e4f9fdb9409580016.json",
+					"name" : "onrobot_rg_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs__rosidl_generator_py-9723570cb0410a3c3da2.json",
+					"name" : "onrobot_rg_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs__rosidl_typesupport_c-f02e21a8a66ffd8b8dd3.json",
+					"name" : "onrobot_rg_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs__rosidl_typesupport_c__pyext-47bf4f3b2bbb401fae52.json",
+					"name" : "onrobot_rg_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs__rosidl_typesupport_cpp-d0f4871df84dd344aa68.json",
+					"name" : "onrobot_rg_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs__rosidl_typesupport_fastrtps_c-1e61d02e75e1d35ecaa9.json",
+					"name" : "onrobot_rg_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs__rosidl_typesupport_fastrtps_c__pyext-75ba31c95f62ce600988.json",
+					"name" : "onrobot_rg_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs__rosidl_typesupport_fastrtps_cpp-fca5d1a1aca8b3bfc126.json",
+					"name" : "onrobot_rg_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs__rosidl_typesupport_introspection_c-4bbd5bd7a8c165350916.json",
+					"name" : "onrobot_rg_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs__rosidl_typesupport_introspection_c__pyext-13aa39abfa5b4f770190.json",
+					"name" : "onrobot_rg_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs__rosidl_typesupport_introspection_cpp-e98315ddbb920c7b4972.json",
+					"name" : "onrobot_rg_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "onrobot_rg_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-onrobot_rg_msgs_uninstall-5506b4548673a3bb7877.json",
+					"name" : "onrobot_rg_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-39ff79e66015ebe5e040.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs",
+		"source" : "/home/matteo-melzer/gazebo_test/src/onrobot-ros2/onrobot_rg_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

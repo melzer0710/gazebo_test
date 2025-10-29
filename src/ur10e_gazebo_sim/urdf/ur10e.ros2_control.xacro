@@ -126,6 +126,11 @@
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
+      <joint name="rg2_gripper_finger_joint">
+        <command_interface name="position"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+      </joint>
 
       <xacro:unless value="${sim_gazebo or sim_ignition}">
         <sensor name="${tf_prefix}tcp_fts_sensor">
