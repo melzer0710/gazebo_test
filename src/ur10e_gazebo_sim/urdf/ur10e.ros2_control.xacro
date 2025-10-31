@@ -131,6 +131,32 @@
         <state_interface name="position"/>
         <state_interface name="velocity"/>
       </joint>
+      <joint name="rg2_gripper_left_inner_knuckle_joint">
+        <state_interface name="position"/>
+        <param name="mimic">rg2_gripper_finger_joint</param>
+        <param name="multiplier">-1</param>
+      </joint>
+      <joint name="rg2_gripper_left_inner_finger_joint">
+        <state_interface name="position"/>
+        <param name="mimic">rg2_gripper_finger_joint</param>
+        <param name="multiplier">1</param>
+      </joint>
+      <joint name="rg2_gripper_right_inner_knuckle_joint">
+        <state_interface name="position"/>
+        <param name="mimic">rg2_gripper_finger_joint</param>
+        <param name="multiplier">-1</param>
+      </joint>
+      <joint name="rg2_gripper_right_inner_finger_joint">
+        <state_interface name="position"/>
+        <param name="mimic">rg2_gripper_finger_joint</param>
+        <param name="multiplier">1</param>
+      </joint>
+      
+      <joint name="rg2_gripper_base_link">
+        <state_interface name="position"/>
+        <param name="mimic">rg2_gripper_finger_joint</param>
+        <param name="multiplier">-1</param>
+      </joint>
 
       <xacro:unless value="${sim_gazebo or sim_ignition}">
         <sensor name="${tf_prefix}tcp_fts_sensor">
