@@ -1,0 +1,64 @@
+[1.323s] Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_control': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_rg_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build
+[1.890s] running develop
+[2.170s] Removing /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot-rg-control.egg-link (link to .)
+[2.223s] Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_control' returned '0': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_rg_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build
+[2.229s] Invoking command in '/home/matteo-melzer/gazebo_test/src/onrobot-ros2/onrobot_rg_control': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_rg_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/onrobot_rg_control build --build-base /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build install --record /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/install.log --single-version-externally-managed install_data --force
+[2.879s] running egg_info
+[2.880s] writing ../../../build/onrobot_rg_control/onrobot_rg_control.egg-info/PKG-INFO
+[2.882s] writing dependency_links to ../../../build/onrobot_rg_control/onrobot_rg_control.egg-info/dependency_links.txt
+[2.883s] writing entry points to ../../../build/onrobot_rg_control/onrobot_rg_control.egg-info/entry_points.txt
+[2.885s] writing requirements to ../../../build/onrobot_rg_control/onrobot_rg_control.egg-info/requires.txt
+[2.885s] writing top-level names to ../../../build/onrobot_rg_control/onrobot_rg_control.egg-info/top_level.txt
+[2.888s] reading manifest file '../../../build/onrobot_rg_control/onrobot_rg_control.egg-info/SOURCES.txt'
+[2.895s] writing manifest file '../../../build/onrobot_rg_control/onrobot_rg_control.egg-info/SOURCES.txt'
+[2.896s] running build
+[2.896s] running build_py
+[2.896s] creating /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build
+[2.897s] creating /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib
+[2.897s] creating /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control
+[2.897s] copying onrobot_rg_control/OnRobotRGController.py -> /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control
+[2.898s] copying onrobot_rg_control/_OnRobotRGIsaacSimController.py -> /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control
+[2.898s] copying onrobot_rg_control/_baseOnRobotRG.py -> /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control
+[2.899s] copying onrobot_rg_control/_OnRobotRGStatusListener.py -> /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control
+[2.899s] copying onrobot_rg_control/__init__.py -> /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control
+[2.900s] copying onrobot_rg_control/OnRobotRGControllerServer.py -> /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control
+[2.904s] creating /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/onrobot_rg_communication
+[2.907s] copying onrobot_rg_control/onrobot_rg_communication/comBase.py -> /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/onrobot_rg_communication
+[2.907s] copying onrobot_rg_control/onrobot_rg_communication/__init__.py -> /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/onrobot_rg_communication
+[2.907s] copying onrobot_rg_control/onrobot_rg_communication/comModbusTcp.py -> /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/onrobot_rg_communication
+[2.907s] copying onrobot_rg_control/onrobot_rg_communication/comIsaacSim.py -> /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/onrobot_rg_communication
+[2.907s] running install
+[2.910s] running install_lib
+[2.910s] creating /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control
+[2.910s] copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/OnRobotRGController.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control
+[2.910s] copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/_OnRobotRGIsaacSimController.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control
+[2.912s] copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/_baseOnRobotRG.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control
+[2.912s] creating /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/onrobot_rg_communication
+[2.912s] copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/onrobot_rg_communication/comBase.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/onrobot_rg_communication
+[2.915s] copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/onrobot_rg_communication/__init__.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/onrobot_rg_communication
+[2.915s] copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/onrobot_rg_communication/comModbusTcp.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/onrobot_rg_communication
+[2.915s] copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/onrobot_rg_communication/comIsaacSim.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/onrobot_rg_communication
+[2.916s] copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/_OnRobotRGStatusListener.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control
+[2.918s] copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/__init__.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control
+[2.918s] copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build/lib/onrobot_rg_control/OnRobotRGControllerServer.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control
+[2.920s] byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/OnRobotRGController.py to OnRobotRGController.cpython-310.pyc
+[2.923s] byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/_OnRobotRGIsaacSimController.py to _OnRobotRGIsaacSimController.cpython-310.pyc
+[2.928s] byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/_baseOnRobotRG.py to _baseOnRobotRG.cpython-310.pyc
+[2.933s] byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/onrobot_rg_communication/comBase.py to comBase.cpython-310.pyc
+[2.933s] byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/onrobot_rg_communication/__init__.py to __init__.cpython-310.pyc
+[2.934s] byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/onrobot_rg_communication/comModbusTcp.py to comModbusTcp.cpython-310.pyc
+[2.937s] byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/onrobot_rg_communication/comIsaacSim.py to comIsaacSim.cpython-310.pyc
+[2.937s] byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/_OnRobotRGStatusListener.py to _OnRobotRGStatusListener.cpython-310.pyc
+[2.939s] byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/__init__.py to __init__.cpython-310.pyc
+[2.940s] byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control/OnRobotRGControllerServer.py to OnRobotRGControllerServer.cpython-310.pyc
+[2.943s] running install_data
+[2.944s] copying resource/onrobot_rg_control -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/share/ament_index/resource_index/packages
+[2.945s] copying package.xml -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/share/onrobot_rg_control
+[2.945s] copying launch/bringup.launch.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/share/onrobot_rg_control/launch
+[2.950s] running install_egg_info
+[2.956s] Copying ../../../build/onrobot_rg_control/onrobot_rg_control.egg-info to /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot_rg_control-2.0.0-py3.10.egg-info
+[2.962s] running install_scripts
+[2.997s] Installing OnRobotRGController script to /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/onrobot_rg_control
+[2.997s] Installing OnRobotRGControllerServer script to /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/onrobot_rg_control
+[2.999s] writing list of installed files to '/home/matteo-melzer/gazebo_test/build/onrobot_rg_control/install.log'
+[3.045s] Invoked command in '/home/matteo-melzer/gazebo_test/src/onrobot-ros2/onrobot_rg_control' returned '0': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_rg_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/onrobot_rg_control build --build-base /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build install --record /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/install.log --single-version-externally-managed install_data --force

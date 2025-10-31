@@ -1,0 +1,39 @@
+running develop
+Removing /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot-driver.egg-link (link to .)
+running egg_info
+writing ../../../build/onrobot_driver/onrobot_driver.egg-info/PKG-INFO
+writing dependency_links to ../../../build/onrobot_driver/onrobot_driver.egg-info/dependency_links.txt
+writing entry points to ../../../build/onrobot_driver/onrobot_driver.egg-info/entry_points.txt
+writing requirements to ../../../build/onrobot_driver/onrobot_driver.egg-info/requires.txt
+writing top-level names to ../../../build/onrobot_driver/onrobot_driver.egg-info/top_level.txt
+reading manifest file '../../../build/onrobot_driver/onrobot_driver.egg-info/SOURCES.txt'
+writing manifest file '../../../build/onrobot_driver/onrobot_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/matteo-melzer/gazebo_test/build/onrobot_driver/build
+creating /home/matteo-melzer/gazebo_test/build/onrobot_driver/build/lib
+creating /home/matteo-melzer/gazebo_test/build/onrobot_driver/build/lib/onrobot_driver
+copying onrobot_driver/gripper_control_server.py -> /home/matteo-melzer/gazebo_test/build/onrobot_driver/build/lib/onrobot_driver
+copying onrobot_driver/gripper_controller.py -> /home/matteo-melzer/gazebo_test/build/onrobot_driver/build/lib/onrobot_driver
+copying onrobot_driver/__init__.py -> /home/matteo-melzer/gazebo_test/build/onrobot_driver/build/lib/onrobot_driver
+copying onrobot_driver/test.py -> /home/matteo-melzer/gazebo_test/build/onrobot_driver/build/lib/onrobot_driver
+running install
+running install_lib
+creating /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot_driver
+copying /home/matteo-melzer/gazebo_test/build/onrobot_driver/build/lib/onrobot_driver/gripper_control_server.py -> /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot_driver
+copying /home/matteo-melzer/gazebo_test/build/onrobot_driver/build/lib/onrobot_driver/gripper_controller.py -> /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot_driver
+copying /home/matteo-melzer/gazebo_test/build/onrobot_driver/build/lib/onrobot_driver/__init__.py -> /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot_driver
+copying /home/matteo-melzer/gazebo_test/build/onrobot_driver/build/lib/onrobot_driver/test.py -> /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot_driver
+byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot_driver/gripper_control_server.py to gripper_control_server.cpython-310.pyc
+byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot_driver/gripper_controller.py to gripper_controller.cpython-310.pyc
+byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot_driver/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot_driver/test.py to test.cpython-310.pyc
+running install_data
+copying resource/onrobot_driver -> /home/matteo-melzer/gazebo_test/install/onrobot_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/matteo-melzer/gazebo_test/install/onrobot_driver/share/onrobot_driver
+running install_egg_info
+Copying ../../../build/onrobot_driver/onrobot_driver.egg-info to /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gripper_action_adapter script to /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/onrobot_driver
+Installing test script to /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/onrobot_driver
+writing list of installed files to '/home/matteo-melzer/gazebo_test/build/onrobot_driver/install.log'

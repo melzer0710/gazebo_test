@@ -1,5 +1,5 @@
 # Inhalt
-Diese Repo ist dafür da, einen ur10e Roboter und einen Onrobot RG2 in Moveit und Gazebo zu implementieren und simulieren zu können
+Diese Repo ist dafür da, einen ur10e Roboter, einen Onrobot FT Sensor und einem Onrobot RG2 Gripper in Moveit und Gazebo zu implementieren und simulieren zu können
 
 ## Voraussetzungen
 - Betriebssystem: Ubuntu 22.04
@@ -18,6 +18,18 @@ cd ~/gazebo_test
 colcon build
 source install/setup.bash
 ```
+3. Installieren wichtiger packages
+```bash
+sudo apt install ros-humble-ros2-control
+sudo apt install ros-humble-ros2-controllers
+sudo apt install ros-humble-gripper-controllers
+sudo apt install gazebo
+sudo apt install ros-humble-gazebo-ros2-control
+sudo apt install ros-humble-gazebo-ros-pkgs
+sudo apt install ros-humble-xacro
+sudo apt install ros-humble-rmw-cyclonedds-cpp
+sudo apt install ros-humble-sensor-msgs
+```
 
 ## Wichtige Befehle
 
@@ -32,7 +44,7 @@ source install/setup.bash
 ### Launch / Start
 ```bash
 # Launch-File für MoveIt-Config + Gazebo parallel
-ros2 launch ur10e_gazebo_sim spawn_ur10e_moveit.launch.py
+ros2 launch ur10e_gazebo_sim spawn_ur10e_ft_rg2_moveit.launch.py
 # Folgender Befehl öffnet nur Rviz und Gazebo + erwatet danach eine Trajektorie-Eingabe/ Ziel-Koordinate
 ros2 launch ur10e_gazebo_sim spawn_ur10e_control.launch.py
 ```

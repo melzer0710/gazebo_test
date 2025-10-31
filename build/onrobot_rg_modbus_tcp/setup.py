@@ -1,1 +1,0 @@
-/home/matteo-melzer/gazebo_test/src/onrobot-ros2/_onrobot_rg_modbus_tcp/setup.py

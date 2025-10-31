@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: onrobot-rg-modbus-tcp
+Version: 1.0.0
+Summary: A stack to communicate with OnRobot RG grippers using the Modbus/TCP protocol. Based on Takuya Kiyokawa's package.
+Home-page: UNKNOWN
+Maintainer: Makány András
+Maintainer-email: andras.makany@irob.uni-obuda.hu
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

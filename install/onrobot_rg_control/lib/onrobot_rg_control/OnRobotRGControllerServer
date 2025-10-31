@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'onrobot-rg-control','console_scripts','OnRobotRGControllerServer'
+# EASY-INSTALL-ENTRY-SCRIPT: 'onrobot-rg-control==2.0.0','console_scripts','OnRobotRGControllerServer'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'onrobot-rg-control'
+__requires__ = 'onrobot-rg-control==2.0.0'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('onrobot-rg-control', 'console_scripts', 'OnRobotRGControllerServer')())
+    sys.exit(load_entry_point('onrobot-rg-control==2.0.0', 'console_scripts', 'OnRobotRGControllerServer')())

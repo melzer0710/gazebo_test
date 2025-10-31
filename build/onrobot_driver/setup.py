@@ -1,1 +1,0 @@
-/home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_driver/setup.py
