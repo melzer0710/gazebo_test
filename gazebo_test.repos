@@ -1,0 +1,62 @@
+repositories:
+  # --- UNIVERSAL ROBOTS / GAZEBO Simulation Pakete ---
+  Universal_Robots_ROS2_Description:
+    type: git
+    url: https://github.com/Universal-Robots/Universal_Robots_ROS2_Description.git
+    version: humble
+  Universal_Robots_ROS_Gazebo_Simulation:
+    type: git
+    url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation.git
+    version: humble
+  ur_msgs:
+    type: git
+    url: https://github.com/Universal-Robots/ur_msgs.git
+    version: main
+  
+  # --- ROS 2 Control Core Pakete ---
+  ros2_control:
+    type: git
+    url: https://github.com/ros-controls/ros2_control.git
+    version: humble
+  ros2_controllers:
+    type: git
+    url: https://github.com/ros-controls/ros2_controllers.git
+    version: humble
+  
+  # --- GAZEBO Integration ---
+  gazebo_ros2_control:
+    type: git
+    url: https://github.com/ros-simulation/gazebo_ros2_control.git
+    version: humble
+  gazebo_ros_pkgs:
+    type: git
+    url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+    version: ros2 # Offizieller Branch für ROS 2
+  
+  # --- Dienstprogramme (z.B. xacro, common_interfaces) ---
+  xacro:
+    type: git
+    url: https://github.com/ros/xacro.git
+    version: humble
+  common_interfaces:
+    type: git
+    url: https://github.com/ros2/common_interfaces.git
+    version: humble
+  rmw_cyclonedds:
+    type: git
+    url: https://github.com/ros2/rmw_cyclonedds.git
+    version: humble
+  
+  # ---  Pakete  ---
+  onrobot_ros:
+    type: git
+    url: https://github.com/OnRobotAps/onrobot_ros.git
+    version: main
+  onrobot-ros2:
+    type: git
+    url: https://github.com/OnRobotAps/onrobot-ros2.git
+    version: humble
+  ros2_net_ft_driver:
+    type: git
+    url: https://github.com/gbartyzel/ros2_net_ft_driver.git
+    version: humble

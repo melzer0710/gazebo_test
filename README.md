@@ -11,24 +11,22 @@ Diese Repo ist dafür da, einen ur10e Roboter, einen Onrobot FT Sensor und einem
 1. Klonen des Repositories
 ```bash
 git clone https://github.com/melzer0710/gazebo_test.git
+
+cd ~/gazebo_test
 ```
 2. Nach dem Klonen
 ```bash
-cd ~/gazebo_test
+# 1. Tool für die Verwaltung der Repositories installieren (falls nötig)
+sudo apt install python3-vcstool
+
+# 2. Alle externen Quellcode-Repositories klonen (liest die gazebo_test.repos)
+vcs import src < gazebo_test.repos
+
+# 3. System-Abhängigkeiten (alle benötigten ros-humble- Pakete) installieren
+rosdep install --from-paths src --ignore-src -r -y
+
 colcon build
 source install/setup.bash
-```
-3. Installieren wichtiger packages
-```bash
-sudo apt install ros-humble-ros2-control
-sudo apt install ros-humble-ros2-controllers
-sudo apt install ros-humble-gripper-controllers
-sudo apt install gazebo
-sudo apt install ros-humble-gazebo-ros2-control
-sudo apt install ros-humble-gazebo-ros-pkgs
-sudo apt install ros-humble-xacro
-sudo apt install ros-humble-rmw-cyclonedds-cpp
-sudo apt install ros-humble-sensor-msgs
 ```
 
 ## Wichtige Befehle

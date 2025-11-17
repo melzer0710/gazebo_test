@@ -6,8 +6,8 @@ Panels:
         - /MotionPlanning1
   - Class: rviz_common/Help
     Name: Help
-  - Class: rviz_common/Views
-    Name: Views
+  # - Class: rviz_common/Views
+  #   Name: Views
 Visualization Manager:
   Displays:
     - Class: rviz_default_plugins/Grid
@@ -16,7 +16,7 @@ Visualization Manager:
     - Class: moveit_rviz_plugin/MotionPlanning
       Name: MotionPlanning
       Planned Path:
-        Loop Animation: true
+        Loop Animation: false
         State Display Time: 0.05 s
         Trajectory Topic: display_planned_path
       Planning Scene Topic: monitored_planning_scene
@@ -36,7 +36,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 2.0
+      Distance: 4.0
       Focal Point:
         X: -0.1
         Y: 0.25

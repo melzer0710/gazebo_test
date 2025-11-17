@@ -36,6 +36,7 @@
           <param name="fake_sensor_commands">${fake_sensor_commands}</param>
           <param name="state_following_offset">0.0</param>
           <param name="calculate_dynamics">true</param>
+          <param name="use_mimic_suffix">false</param>
         </xacro:if>
         <xacro:unless value="${use_fake_hardware or sim_gazebo or sim_ignition}">
           <plugin>ur_robot_driver/URPositionHardwareInterface</plugin>
