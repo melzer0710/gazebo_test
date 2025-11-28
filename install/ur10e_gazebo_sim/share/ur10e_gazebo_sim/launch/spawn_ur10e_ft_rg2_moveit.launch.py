@@ -1,7 +1,8 @@
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, ExecuteProcess, RegisterEventHandler
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, ExecuteProcess, RegisterEventHandler, SetEnvironmentVariable
 from launch_ros.actions import Node
-from launch.substitutions import LaunchConfiguration, Command
+from launch.substitutions import LaunchConfiguration, Command, EnvironmentVariable, PathJoinSubstitution
+from launch_ros.substitutions import FindPackageShare
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.event_handlers import OnProcessStart
 from launch.event_handlers import OnProcessExit
@@ -22,6 +23,9 @@ def generate_launch_description():
     )
     gazebo_launch_file = os.path.join(
         get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py'
+    )
+    world_file = os.path.join(
+        get_package_share_directory('ur10e_gazebo_sim'), 'worlds', 'world1.world'
     )
 
     moveit_config = (
@@ -52,7 +56,7 @@ def generate_launch_description():
             'debug': 'false',
             'gui': 'true',
             'paused': 'true',
-            #'world' : world_file
+            'world' : world_file
         }.items()
     )
 
@@ -175,6 +179,27 @@ def generate_launch_description():
         OnProcessStart(
             target_action=arm_trajectory_controller_spawner, # Oder gripper_position_controller_spawner
             on_start=[move_group_node],
+        )
+    )
+
+    # Setze den GAZEBO_MODEL_PATH für RealSense
+    realsense_model_path = PathJoinSubstitution(
+        [FindPackageShare("realsense2_description"), ""]
+    )
+    ur_model_path = os.path.join(
+        get_package_share_directory("ur10e_gazebo_sim"), "models"
+    )
+    ld.add_action(
+        SetEnvironmentVariable(
+            name="GAZEBO_MODEL_PATH",
+            # Füge den neuen Pfad dem bestehenden GAZEBO_MODEL_PATH hinzu
+            value=[
+                EnvironmentVariable("GAZEBO_MODEL_PATH", default_value=""),
+                ":",
+                realsense_model_path,
+                ":",
+                ur_model_path
+            ]
         )
     )
 

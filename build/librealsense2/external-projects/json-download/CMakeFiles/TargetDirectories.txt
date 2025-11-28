@@ -1,0 +1,3 @@
+/home/matteo-melzer/gazebo_test/build/librealsense2/external-projects/json-download/CMakeFiles/nlohmann_json.dir
+/home/matteo-melzer/gazebo_test/build/librealsense2/external-projects/json-download/CMakeFiles/edit_cache.dir
+/home/matteo-melzer/gazebo_test/build/librealsense2/external-projects/json-download/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,18 @@
+[0.061s] Invoking command in '/home/matteo-melzer/gazebo_test/build/librealsense2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/librealsense -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/librealsense2
+[0.114s] -- Checking internet connection...
+[0.643s] -- Internet connection identified
+[0.656s] -- Info: REALSENSE_VERSION_STRING=2.56.5
+[0.660s] -- Setting Unix configurations
+[0.679s] -- Building libcurl enabled
+[0.731s] -- using RS2_USE_V4L2_BACKEND
+[0.760s] -- Fetching nlohmann/json...
+[1.102s] -- Using the multi-header code from /home/matteo-melzer/gazebo_test/build/librealsense2/third-party/json/include/
+[1.107s] -- Fetching nlohmann/json - Done
+[1.223s] -- Check for updates capability added to realsense-viewer
+[1.235s] -- Check for updates capability added to realsense-depth-quality
+[1.236s] -- Fetching recommended firmwares:
+[1.236s] -- disable link time optimization for fw project
+[1.236s] -- ... https://librealsense.intel.com/Releases/RS4xx/FW/D4XX_FW_Image-5.17.0.10.bin
+[1.911s] -- Configuring done
+[2.474s] -- Generating done
+[2.559s] -- Build files have been written to: /home/matteo-melzer/gazebo_test/build/librealsense2

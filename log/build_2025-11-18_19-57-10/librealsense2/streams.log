@@ -1,0 +1,40 @@
+[0.043s] Invoking command in '/home/matteo-melzer/gazebo_test/build/librealsense2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/librealsense2 -- -j2 -l2
+[0.377s] [  2%] Built target libcurl
+[0.510s] [  6%] Built target realsense-file
+[0.604s] [ 11%] Built target rsutils
+[0.660s] [ 11%] Built target rs-embed
+[0.707s] [ 11%] Built target fw
+[0.935s] [ 41%] Built target realsense2
+[0.998s] [ 44%] Built target realsense2-gl
+[1.048s] [ 44%] Built target rs-hello-realsense
+[1.097s] [ 46%] Built target rs-software-device
+[1.158s] [ 48%] Built target rs-capture
+[1.217s] [ 49%] Built target rs-callback
+[1.270s] [ 49%] Built target rs-save-to-disk
+[1.324s] [ 51%] Built target rs-multicam
+[1.379s] [ 53%] Built target rs-pointcloud
+[1.443s] [ 55%] Built target rs-align
+[1.507s] [ 57%] Built target rs-align-gl
+[1.563s] [ 59%] Built target rs-align-advanced
+[1.633s] [ 61%] Built target rs-sensor-control
+[1.693s] [ 63%] Built target rs-measure
+[1.745s] [ 63%] Built target rs-depth
+[1.808s] [ 63%] Built target rs-color
+[1.870s] [ 64%] Built target rs-distance
+[1.945s] [ 66%] Built target rs-post-processing
+[2.075s] [ 67%] Built target rs-record-playback
+[2.166s] [ 69%] Built target rs-motion
+[2.258s] [ 71%] Built target rs-gl
+[2.347s] [ 73%] Built target rs-hdr
+[2.421s] [ 73%] Built target rs-on-chip-calib
+[2.521s] [ 74%] Built target rs-convert
+[2.591s] [ 75%] Built target rs-enumerate-devices
+[2.652s] [ 75%] Built target rs-fw-logger
+[2.716s] [ 76%] Built target rs-terminal
+[2.775s] [ 77%] Built target rs-record
+[2.865s] [ 78%] Built target rs-fw-update
+[2.945s] [ 79%] Built target rs-data-collect
+[3.052s] [ 88%] Built target realsense-viewer
+[3.160s] [ 97%] Built target rs-depth-quality
+[3.269s] [100%] Built target rs-rosbag-inspector
+[3.365s] [100%] Built target rs-benchmark

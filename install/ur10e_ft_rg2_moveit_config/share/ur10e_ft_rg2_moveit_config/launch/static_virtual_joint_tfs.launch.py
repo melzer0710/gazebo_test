@@ -1,7 +1,1 @@
-from moveit_configs_utils import MoveItConfigsBuilder
-from moveit_configs_utils.launches import generate_static_virtual_joint_tfs_launch
-
-
-def generate_launch_description():
-    moveit_config = MoveItConfigsBuilder("ur", package_name="ur10e_ft_rg2_moveit_config").to_moveit_configs()
-    return generate_static_virtual_joint_tfs_launch(moveit_config)
+/home/matteo-melzer/gazebo_test/src/ur10e_ft_rg2_moveit_config/launch/static_virtual_joint_tfs.launch.py

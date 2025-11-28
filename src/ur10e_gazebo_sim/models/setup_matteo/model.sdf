@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="setup_matteo">
+    <static>true</static>
+    <link name="link">
+      <gravity>1</gravity>
+      <self_collide>false</self_collide>
+
+      <inertial>
+        <pose>0.6585 0.7235 0.4635 0 0 0</pose>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>24.609</ixx>
+          <iyy>21.615</iyy>
+          <izz>31.902</izz>
+          <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual">
+        <pose>0 0 0 1.57 0 0</pose>
+        
+        <geometry>
+          <mesh>
+            <uri>model://setup_matteo/meshes/setup_matteo.dae</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+
+      <collision name="col_box">
+        <pose>0.7235 -0.6585 0.4635 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1.447 1.317 0.927</size>
+          </box>
+        </geometry>
+        <surface><contact><ode/></contact><friction><ode/></friction></surface>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

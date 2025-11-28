@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -50,6 +50,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/matteo-melzer/gazebo_test/src/ur10e_gazebo_sim/rviz"
     "/home/matteo-melzer/gazebo_test/src/ur10e_gazebo_sim/worlds"
     "/home/matteo-melzer/gazebo_test/src/ur10e_gazebo_sim/meshes"
+    "/home/matteo-melzer/gazebo_test/src/ur10e_gazebo_sim/models"
     )
 endif()
 

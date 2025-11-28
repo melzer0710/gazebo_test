@@ -4,6 +4,7 @@
    <xacro:arg name="name" default="ur"/>
    <!-- import main macro -->
    <xacro:include filename="$(find ur10e_gazebo_sim)/urdf/ur10e_macro.xacro"/>
+   <xacro:include filename="$(find ur10e_gazebo_sim)/urdf/camera_macro.xacro"/>
 
    <!-- possible 'ur_type' values: ur3, ur5, ur10, ur3e, ur5e, ur7e, ur10e, ur12e, ur16e, ur8long, ur15, ur18, ur20, ur30 -->
    <!-- the default value should raise an error in case this was called without defining the type -->
@@ -123,9 +124,13 @@
      script_sender_port="$(arg script_sender_port)"
      trajectory_port="$(arg trajectory_port)"
      >
-     <origin xyz="0 0 0.01" rpy="0 0 0" />          <!-- position robot in the world -->
+     <origin xyz="1.31950 0.57082 0.927" rpy="0 0 0" />          <!-- position robot in the world -->
    </xacro:ur_robot>
 
+   <xacro:sensor_d435i_gazebo parent="tool0" prefix="camera_">
+      <origin xyz="0.019 -0.07 0" rpy="1.57 -1.57 0"/>    <!-- Kamera Position und Orientierung-->
+    </xacro:sensor_d435i_gazebo>
+    
    <xacro:if value="$(arg sim_gazebo)">
     <!-- Gazebo plugins -->
     <gazebo reference="world">

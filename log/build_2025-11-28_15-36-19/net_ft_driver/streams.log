@@ -1,0 +1,62 @@
+[0.021s] Invoking command in '/home/matteo-melzer/gazebo_test/build/net_ft_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/ros2_net_ft_driver/net_ft_driver -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/net_ft_driver
+[0.044s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.195s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.201s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)
+[0.202s] -- Found tinyxml2_vendor: 0.7.6 (/opt/ros/humble/share/tinyxml2_vendor/cmake)
+[0.211s] -- Found hardware_interface: 2.52.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.239s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.242s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.247s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.459s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.463s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.484s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.499s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.521s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.530s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.548s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.582s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.672s] -- Configuring done
+[0.692s] -- Generating done
+[0.700s] -- Build files have been written to: /home/matteo-melzer/gazebo_test/build/net_ft_driver
+[0.707s] Invoked command in '/home/matteo-melzer/gazebo_test/build/net_ft_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/ros2_net_ft_driver/net_ft_driver -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/net_ft_driver
+[0.711s] Invoking command in '/home/matteo-melzer/gazebo_test/build/net_ft_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/net_ft_driver -- -j2 -l2
+[0.809s] [35m[1mConsolidate compiler generated dependencies of target net_ft_driver[0m
+[0.889s] [100%] Built target net_ft_driver
+[0.912s] Invoked command in '/home/matteo-melzer/gazebo_test/build/net_ft_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/net_ft_driver -- -j2 -l2
+[0.916s] Invoking command in '/home/matteo-melzer/gazebo_test/build/net_ft_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/net_ft_driver
+[0.937s] -- Install configuration: ""
+[0.938s] -- Execute custom install script
+[0.938s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver//hardware_interface_plugin.xml
+[0.939s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/lib/libnet_ft_driver.so
+[0.939s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/include/net_ft_driver/hardware_interface.hpp
+[0.940s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/include/net_ft_driver/interfaces/ati_axia_ft_interface.hpp
+[0.940s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/include/net_ft_driver/interfaces/ati_ft_interface.hpp
+[0.940s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/include/net_ft_driver/interfaces/net_ft_interface.hpp
+[0.941s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/include/net_ft_driver/interfaces/onrobot_ft_interface.hpp
+[0.941s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/include/net_ft_driver/visibility_control.h
+[0.942s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/config/net_ft_broadcaster.yaml
+[0.942s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/launch/net_ft_broadcaster.launch.py
+[0.943s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/environment/library_path.sh
+[0.943s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/environment/library_path.dsv
+[0.944s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/ament_index/resource_index/package_run_dependencies/net_ft_driver
+[0.945s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/ament_index/resource_index/parent_prefix_path/net_ft_driver
+[0.946s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/environment/ament_prefix_path.sh
+[0.946s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/environment/ament_prefix_path.dsv
+[0.946s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/environment/path.sh
+[0.946s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/environment/path.dsv
+[0.946s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/local_setup.bash
+[0.946s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/local_setup.sh
+[0.946s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/local_setup.zsh
+[0.946s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/local_setup.dsv
+[0.946s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/package.dsv
+[0.961s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/ament_index/resource_index/packages/net_ft_driver
+[0.961s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/net_ft_driver
+[0.962s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.962s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[0.964s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.964s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/cmake/net_ft_driverConfig.cmake
+[0.964s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/cmake/net_ft_driverConfig-version.cmake
+[0.964s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_driver/share/net_ft_driver/package.xml
+[0.969s] Invoked command in '/home/matteo-melzer/gazebo_test/build/net_ft_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/net_ft_driver

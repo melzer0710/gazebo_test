@@ -1,0 +1,287 @@
+[0.029s] Invoking command in '/home/matteo-melzer/gazebo_test/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs
+[0.061s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.220s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.256s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.409s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.441s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.460s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.959s] -- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.962s] -- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.965s] -- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.968s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.342s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.802s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.831s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.831s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.831s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.097s] -- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.101s] -- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.150s] -- Configuring done
+[2.291s] -- Generating done
+[2.321s] -- Build files have been written to: /home/matteo-melzer/gazebo_test/build/realsense2_camera_msgs
+[2.331s] Invoked command in '/home/matteo-melzer/gazebo_test/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs
+[2.333s] Invoking command in '/home/matteo-melzer/gazebo_test/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/realsense2_camera_msgs -- -j2 -l2
+[2.497s] [  1%] Built target realsense2_camera_msgs__cpp
+[2.570s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_generator_c[0m
+[2.631s] [ 12%] Built target realsense2_camera_msgs__rosidl_generator_c
+[2.740s] [ 12%] Built target ament_cmake_python_symlink_realsense2_camera_msgs
+[2.800s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_cpp[0m
+[2.877s] [ 24%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[2.935s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.991s] [ 35%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[3.027s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_introspection_c[0m
+[3.080s] [ 47%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[3.112s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_c[0m
+[3.161s] [ 58%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[3.196s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.246s] [ 70%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[3.290s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.335s] [ 81%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[3.805s] running egg_info
+[3.805s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[3.805s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[3.806s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[3.813s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[3.814s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[3.854s] [ 81%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg
+[3.918s] [ 81%] Built target realsense2_camera_msgs
+[4.025s] [ 82%] Built target realsense2_camera_msgs__py
+[4.081s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_generator_py[0m
+[4.155s] [ 93%] Built target realsense2_camera_msgs__rosidl_generator_py
+[4.202s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.254s] [ 95%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.303s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[4.381s] [ 97%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[4.431s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_c__pyext[0m
+[4.483s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[4.548s] Invoked command in '/home/matteo-melzer/gazebo_test/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/realsense2_camera_msgs -- -j2 -l2
+[4.559s] Invoking command in '/home/matteo-melzer/gazebo_test/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/realsense2_camera_msgs
+[4.603s] -- Install configuration: ""
+[4.603s] -- Execute custom install script
+[4.603s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs
+[4.604s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__functions.h
+[4.604s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__struct.h
+[4.604s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.h
+[4.604s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/triggered_calibration.h
+[4.604s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
+[4.609s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.h
+[4.609s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
+[4.609s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.h
+[4.611s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.h
+[4.611s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.h
+[4.611s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.h
+[4.611s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.h
+[4.611s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.h
+[4.611s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.h
+[4.611s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.h
+[4.611s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.h
+[4.612s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.h
+[4.612s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.h
+[4.612s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.h
+[4.612s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.h
+[4.612s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.612s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/calib_config_read.h
+[4.612s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/calib_config_write.h
+[4.612s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__functions.h
+[4.612s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__struct.h
+[4.612s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.h
+[4.612s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__functions.h
+[4.612s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__struct.h
+[4.613s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.h
+[4.615s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.h
+[4.615s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.h
+[4.615s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.h
+[4.615s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.h
+[4.615s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh
+[4.615s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv
+[4.615s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__rosidl_typesupport_fastrtps_c.h
+[4.615s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[4.615s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[4.615s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[4.615s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h
+[4.617s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.617s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__rosidl_typesupport_fastrtps_c.h
+[4.618s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__rosidl_typesupport_fastrtps_c.h
+[4.618s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[4.618s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__rosidl_typesupport_introspection_c.h
+[4.618s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[4.619s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[4.620s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[4.620s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h
+[4.620s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.620s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__rosidl_typesupport_introspection_c.h
+[4.620s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__rosidl_typesupport_introspection_c.h
+[4.620s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h
+[4.621s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__builder.hpp
+[4.622s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__struct.hpp
+[4.622s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__traits.hpp
+[4.622s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.hpp
+[4.622s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/triggered_calibration.hpp
+[4.622s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp
+[4.623s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp
+[4.623s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp
+[4.623s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.hpp
+[4.623s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp
+[4.624s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp
+[4.624s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp
+[4.624s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.hpp
+[4.626s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__builder.hpp
+[4.626s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.hpp
+[4.626s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__traits.hpp
+[4.626s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.hpp
+[4.629s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__builder.hpp
+[4.629s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.hpp
+[4.629s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__traits.hpp
+[4.629s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.hpp
+[4.629s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.hpp
+[4.630s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.hpp
+[4.630s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.hpp
+[4.630s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.hpp
+[4.630s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.630s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/calib_config_read.hpp
+[4.630s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/calib_config_write.hpp
+[4.635s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__builder.hpp
+[4.635s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__struct.hpp
+[4.635s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__traits.hpp
+[4.635s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.hpp
+[4.635s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__builder.hpp
+[4.635s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__struct.hpp
+[4.635s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__traits.hpp
+[4.635s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.hpp
+[4.635s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__builder.hpp
+[4.635s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.hpp
+[4.635s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__traits.hpp
+[4.635s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.hpp
+[4.636s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.hpp
+[4.638s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__rosidl_typesupport_fastrtps_cpp.hpp
+[4.642s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[4.642s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.642s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[4.642s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp
+[4.642s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.642s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__rosidl_typesupport_fastrtps_cpp.hpp
+[4.643s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__rosidl_typesupport_fastrtps_cpp.hpp
+[4.646s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.647s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__rosidl_typesupport_introspection_cpp.hpp
+[4.649s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[4.649s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[4.649s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[4.649s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp
+[4.652s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__rosidl_typesupport_introspection_cpp.hpp
+[4.652s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__rosidl_typesupport_introspection_cpp.hpp
+[4.652s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[4.652s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh
+[4.653s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv
+[4.654s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.56.4-py3.10.egg-info/PKG-INFO
+[4.654s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.56.4-py3.10.egg-info/SOURCES.txt
+[4.655s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.56.4-py3.10.egg-info/dependency_links.txt
+[4.659s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.56.4-py3.10.egg-info/top_level.txt
+[4.661s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py
+[4.661s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c
+[4.665s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.666s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.666s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/action/__init__.py
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/action/_triggered_calibration.py
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/action/_triggered_calibration_s.c
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/__init__.py
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics.py
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics_s.c
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info.py
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info_s.c
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata.py
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata_s.c
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd.py
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd_s.c
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/__init__.py
+[4.668s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_calib_config_read.py
+[4.672s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_calib_config_read_s.c
+[4.674s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_calib_config_write.py
+[4.675s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_calib_config_write_s.c
+[4.677s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info.py
+[4.677s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info_s.c
+[4.678s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.687s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.689s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.689s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl
+[4.690s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl
+[4.690s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl
+[4.690s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.idl
+[4.690s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl
+[4.690s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigRead.idl
+[4.690s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigWrite.idl
+[4.690s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/action/TriggeredCalibration.idl
+[4.691s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg
+[4.693s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg
+[4.693s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg
+[4.693s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.msg
+[4.693s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv
+[4.693s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Request.msg
+[4.694s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Response.msg
+[4.694s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigRead.srv
+[4.694s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigRead_Request.msg
+[4.694s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigRead_Response.msg
+[4.694s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigWrite.srv
+[4.694s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigWrite_Request.msg
+[4.694s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigWrite_Response.msg
+[4.694s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/action/TriggeredCalibration.action
+[4.694s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs
+[4.696s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs
+[4.696s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh
+[4.696s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv
+[4.696s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh
+[4.696s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv
+[4.696s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash
+[4.696s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh
+[4.696s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh
+[4.696s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv
+[4.696s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv
+[4.728s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs
+[4.730s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[4.730s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.730s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.730s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.730s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.730s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.730s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.730s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake
+[4.730s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake
+[4.730s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml
+[4.732s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so
+[4.734s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[4.737s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so
+[4.743s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so
+[4.747s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.749s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[4.754s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so
+[4.879s] Listing '/home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs'...
+[4.880s] Compiling '/home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py'...
+[4.880s] Listing '/home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/action'...
+[4.880s] Listing '/home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg'...
+[4.880s] Listing '/home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv'...
+[4.884s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so
+[4.886s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport.cmake
+[4.887s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.887s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.887s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.888s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.888s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.890s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake
+[4.890s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.891s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cppExport.cmake
+[4.892s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.893s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.893s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.893s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.893s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake
+[4.894s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.897s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport.cmake
+[4.897s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.901s] Invoked command in '/home/matteo-melzer/gazebo_test/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/realsense2_camera_msgs

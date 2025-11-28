@@ -1,0 +1,16 @@
+[1.511s] Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/build --no-deps symlink_data
+[2.223s] running develop
+[2.697s] running egg_info
+[2.697s] writing onrobot_rg_modbus_tcp.egg-info/PKG-INFO
+[2.697s] writing dependency_links to onrobot_rg_modbus_tcp.egg-info/dependency_links.txt
+[2.697s] writing entry points to onrobot_rg_modbus_tcp.egg-info/entry_points.txt
+[2.697s] writing requirements to onrobot_rg_modbus_tcp.egg-info/requires.txt
+[2.698s] writing top-level names to onrobot_rg_modbus_tcp.egg-info/top_level.txt
+[2.702s] reading manifest file 'onrobot_rg_modbus_tcp.egg-info/SOURCES.txt'
+[2.704s] writing manifest file 'onrobot_rg_modbus_tcp.egg-info/SOURCES.txt'
+[2.709s] running build_ext
+[2.709s] Creating /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot-rg-modbus-tcp.egg-link (link to .)
+[2.713s] 
+[2.713s] Installed /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp
+[2.713s] running symlink_data
+[2.823s] Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp' returned '0': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/build --no-deps symlink_data

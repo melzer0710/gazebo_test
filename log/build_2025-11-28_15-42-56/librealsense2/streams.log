@@ -1,0 +1,134 @@
+[0.021s] Invoking command in '/home/matteo-melzer/gazebo_test/build/librealsense2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/librealsense2 -- -j2 -l2
+[0.229s] [  2%] Built target libcurl
+[0.357s] [  6%] Built target realsense-file
+[0.493s] [ 11%] Built target rsutils
+[0.617s] [ 11%] Built target rs-embed
+[0.743s] [ 11%] Built target fw
+[1.140s] [ 41%] Built target realsense2
+[1.277s] [ 44%] Built target realsense2-gl
+[1.368s] [ 44%] Built target rs-hello-realsense
+[1.510s] [ 46%] Built target rs-software-device
+[1.630s] [ 48%] Built target rs-capture
+[1.749s] [ 49%] Built target rs-callback
+[1.836s] [ 49%] Built target rs-save-to-disk
+[1.960s] [ 51%] Built target rs-multicam
+[2.079s] [ 53%] Built target rs-pointcloud
+[2.225s] [ 55%] Built target rs-align
+[2.367s] [ 57%] Built target rs-align-gl
+[2.527s] [ 59%] Built target rs-align-advanced
+[2.657s] [ 61%] Built target rs-sensor-control
+[2.746s] [ 63%] Built target rs-measure
+[2.844s] [ 63%] Built target rs-depth
+[2.936s] [ 63%] Built target rs-color
+[3.026s] [ 64%] Built target rs-distance
+[3.153s] [ 66%] Built target rs-post-processing
+[3.262s] [ 67%] Built target rs-record-playback
+[3.341s] [ 69%] Built target rs-motion
+[3.430s] [ 71%] Built target rs-gl
+[3.527s] [ 73%] Built target rs-hdr
+[3.620s] [ 73%] Built target rs-on-chip-calib
+[3.707s] [ 74%] Built target rs-convert
+[3.759s] [ 75%] Built target rs-enumerate-devices
+[3.817s] [ 75%] Built target rs-fw-logger
+[3.876s] [ 76%] Built target rs-terminal
+[3.953s] [ 77%] Built target rs-record
+[4.005s] [ 78%] Built target rs-fw-update
+[4.054s] [ 79%] Built target rs-data-collect
+[4.158s] [ 88%] Built target realsense-viewer
+[4.310s] [ 97%] Built target rs-depth-quality
+[4.438s] [100%] Built target rs-rosbag-inspector
+[4.522s] [100%] Built target rs-benchmark
+[4.569s] Invoked command in '/home/matteo-melzer/gazebo_test/build/librealsense2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/librealsense2 -- -j2 -l2
+[4.574s] Invoking command in '/home/matteo-melzer/gazebo_test/build/librealsense2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/librealsense2
+[4.623s] -- Install configuration: "Release"
+[4.623s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/librealsense2.so.2.56.5
+[4.626s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/librealsense2.so.2.56
+[4.626s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/librealsense2.so
+[4.626s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2
+[4.626s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/rsutil.h
+[4.626s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp
+[4.626s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp/rs_export.hpp
+[4.626s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp/rs_serializable_device.hpp
+[4.626s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp/rs_sensor.hpp
+[4.626s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp/rs_device.hpp
+[4.626s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp/rs_internal.hpp
+[4.626s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp/rs_options.hpp
+[4.627s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp/rs_frame.hpp
+[4.627s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp/rs_pipeline.hpp
+[4.627s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp/rs_record_playback.hpp
+[4.627s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp/rs_types.hpp
+[4.627s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp/rs_context.hpp
+[4.627s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/hpp/rs_processing.hpp
+[4.627s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/rs.h
+[4.627s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/rs.hpp
+[4.627s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h
+[4.627s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h/rs_processing.h
+[4.630s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h/rs_context.h
+[4.630s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h/rs_sensor.h
+[4.630s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h/rs_frame.h
+[4.630s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h/rs_internal.h
+[4.630s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h/rs_option.h
+[4.630s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h/rs_config.h
+[4.630s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h/rs_advanced_mode_command.h
+[4.630s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h/rs_device.h
+[4.633s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h/rs_record_playback.h
+[4.633s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h/rs_types.h
+[4.633s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/h/rs_pipeline.h
+[4.633s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/rs_advanced_mode.hpp
+[4.633s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2/rs_advanced_mode.h
+[4.633s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/cmake/realsense2/realsense2Targets.cmake
+[4.633s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/cmake/realsense2/realsense2Targets-release.cmake
+[4.634s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/cmake/realsense2/realsense2Config.cmake
+[4.634s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/cmake/realsense2/realsense2ConfigVersion.cmake
+[4.634s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/pkgconfig/realsense2.pc
+[4.834s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/librsutils.a
+[4.834s] /sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+[4.834s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/librealsense-file.a
+[4.834s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/librealsense2-gl.so.2.56.5
+[4.834s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/librealsense2-gl.so.2.56
+[4.834s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/librealsense2-gl.so
+[4.834s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2-gl/rs_processing_gl.h
+[4.834s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/include/librealsense2-gl/rs_processing_gl.hpp
+[4.834s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets.cmake
+[4.834s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets-release.cmake
+[4.834s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfig.cmake
+[4.834s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfigVersion.cmake
+[4.834s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/pkgconfig/realsense2-gl.pc
+[4.984s] /sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
+[4.984s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-hello-realsense
+[4.984s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-software-device
+[4.984s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-capture
+[4.984s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-callback
+[4.984s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-save-to-disk
+[4.985s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-multicam
+[4.985s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-pointcloud
+[4.986s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-align
+[4.987s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-align-gl
+[4.987s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-align-advanced
+[4.990s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-sensor-control
+[4.990s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-measure
+[4.990s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-depth
+[4.990s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-color
+[4.990s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-distance
+[4.991s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-post-processing
+[4.993s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-record-playback
+[4.993s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-motion
+[4.993s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-gl
+[4.997s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-hdr
+[4.998s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-on-chip-calib
+[5.006s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-convert
+[5.006s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-enumerate-devices
+[5.007s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-fw-logger
+[5.014s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-terminal
+[5.015s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-record
+[5.017s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-fw-update
+[5.017s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-embed
+[5.018s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-data-collect
+[5.018s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/realsense-viewer
+[5.024s] -- Up-to-date: /home/matteo-melzer/Documents/librealsense2/presets
+[5.024s] -- Up-to-date: /home/matteo-melzer/Documents/librealsense2/presets/sample.preset
+[5.026s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-depth-quality
+[5.028s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-rosbag-inspector
+[5.035s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/bin/rs-benchmark
+[5.037s] -- Up-to-date: /home/matteo-melzer/gazebo_test/install/librealsense2/lib/libfw.a
+[5.048s] Invoked command in '/home/matteo-melzer/gazebo_test/build/librealsense2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/librealsense2

@@ -1,0 +1,30 @@
+[1.066s] Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/build
+[1.634s] running develop
+[2.064s] Removing /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot-rg-modbus-tcp.egg-link (link to .)
+[2.131s] Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp' returned '0': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/build
+[2.136s] Invoking command in '/home/matteo-melzer/gazebo_test/src/onrobot-ros2/_onrobot_rg_modbus_tcp': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/onrobot_rg_modbus_tcp build --build-base /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/build install --record /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/install.log --single-version-externally-managed install_data --force
+[2.639s] running egg_info
+[2.640s] writing ../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/PKG-INFO
+[2.642s] writing dependency_links to ../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/dependency_links.txt
+[2.643s] writing entry points to ../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/entry_points.txt
+[2.644s] writing requirements to ../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/requires.txt
+[2.645s] writing top-level names to ../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/top_level.txt
+[2.647s] reading manifest file '../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/SOURCES.txt'
+[2.652s] writing manifest file '../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/SOURCES.txt'
+[2.652s] running build
+[2.653s] running build_py
+[2.653s] running install
+[2.653s] running install_lib
+[2.654s] creating /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot_rg_modbus_tcp
+[2.654s] copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/build/lib/onrobot_rg_modbus_tcp/__init__.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot_rg_modbus_tcp
+[2.655s] copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/build/lib/onrobot_rg_modbus_tcp/comModbusTcp.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot_rg_modbus_tcp
+[2.655s] byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot_rg_modbus_tcp/__init__.py to __init__.cpython-310.pyc
+[2.655s] byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot_rg_modbus_tcp/comModbusTcp.py to comModbusTcp.cpython-310.pyc
+[2.656s] running install_data
+[2.657s] copying resource/onrobot_rg_modbus_tcp -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/share/ament_index/resource_index/packages
+[2.657s] copying package.xml -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/share/onrobot_rg_modbus_tcp
+[2.658s] running install_egg_info
+[2.661s] Copying ../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info to /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot_rg_modbus_tcp-1.0.0-py3.10.egg-info
+[2.662s] running install_scripts
+[2.687s] writing list of installed files to '/home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/install.log'
+[2.751s] Invoked command in '/home/matteo-melzer/gazebo_test/src/onrobot-ros2/_onrobot_rg_modbus_tcp' returned '0': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/onrobot_rg_modbus_tcp build --build-base /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/build install --record /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/install.log --single-version-externally-managed install_data --force

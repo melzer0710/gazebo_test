@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing onrobot_rg_modbus_tcp.egg-info/PKG-INFO
+writing dependency_links to onrobot_rg_modbus_tcp.egg-info/dependency_links.txt
+writing entry points to onrobot_rg_modbus_tcp.egg-info/entry_points.txt
+writing requirements to onrobot_rg_modbus_tcp.egg-info/requires.txt
+writing top-level names to onrobot_rg_modbus_tcp.egg-info/top_level.txt
+reading manifest file 'onrobot_rg_modbus_tcp.egg-info/SOURCES.txt'
+writing manifest file 'onrobot_rg_modbus_tcp.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot-rg-modbus-tcp.egg-link (link to .)
+
+Installed /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp
+running symlink_data
+symbolically linking /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/resource/onrobot_rg_modbus_tcp -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/share/ament_index/resource_index/packages
+symbolically linking /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/package.xml -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/share/onrobot_rg_modbus_tcp

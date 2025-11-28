@@ -8,6 +8,7 @@
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/urdf/ur10e.ros2_control.xacro
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/urdf/rg2_macro.xacro
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/urdf/ft_sensor.ros2_control.xacro
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/urdf/camera_macro.xacro
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/urdf/ft_sensor_macro.xacro
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/urdf/ur10e_macro.xacro
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/urdf/ur10e_flex.urdf.xacro
@@ -17,3 +18,7 @@
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/config/ur10e_controllers.yaml
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/config/initial_positions.yaml
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/rviz/view_ur10e.rviz
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/worlds/world1.world
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/models/setup_matteo/model.config
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/models/setup_matteo/model.sdf
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/models/setup_matteo/meshes/setup_matteo.dae

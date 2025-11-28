@@ -1,0 +1,26 @@
+running develop
+Removing /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot-rg-modbus-tcp.egg-link (link to .)
+running egg_info
+writing ../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/PKG-INFO
+writing dependency_links to ../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/dependency_links.txt
+writing entry points to ../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/entry_points.txt
+writing requirements to ../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/requires.txt
+writing top-level names to ../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/top_level.txt
+reading manifest file '../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/SOURCES.txt'
+writing manifest file '../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot_rg_modbus_tcp
+copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/build/lib/onrobot_rg_modbus_tcp/__init__.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot_rg_modbus_tcp
+copying /home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/build/lib/onrobot_rg_modbus_tcp/comModbusTcp.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot_rg_modbus_tcp
+byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot_rg_modbus_tcp/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot_rg_modbus_tcp/comModbusTcp.py to comModbusTcp.cpython-310.pyc
+running install_data
+copying resource/onrobot_rg_modbus_tcp -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/share/ament_index/resource_index/packages
+copying package.xml -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/share/onrobot_rg_modbus_tcp
+running install_egg_info
+Copying ../../../build/onrobot_rg_modbus_tcp/onrobot_rg_modbus_tcp.egg-info to /home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp/lib/python3.10/site-packages/onrobot_rg_modbus_tcp-1.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/matteo-melzer/gazebo_test/build/onrobot_rg_modbus_tcp/install.log'

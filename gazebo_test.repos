@@ -60,3 +60,11 @@ repositories:
     type: git
     url: https://github.com/gbartyzel/ros2_net_ft_driver.git
     version: humble
+  librealsense:
+    type: git
+    url: https://github.com/IntelRealSense/librealsense.git
+    version: master
+  realsense-ros:
+    type: git
+    url: https://github.com/IntelRealSense/realsense-ros.git
+    version: ros2-master

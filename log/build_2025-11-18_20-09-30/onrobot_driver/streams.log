@@ -1,0 +1,18 @@
+[1.214s] Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_driver': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matteo-melzer/gazebo_test/build/onrobot_driver/build --no-deps symlink_data
+[1.512s] running develop
+[1.720s] running egg_info
+[1.720s] writing onrobot_driver.egg-info/PKG-INFO
+[1.721s] writing dependency_links to onrobot_driver.egg-info/dependency_links.txt
+[1.722s] writing entry points to onrobot_driver.egg-info/entry_points.txt
+[1.723s] writing requirements to onrobot_driver.egg-info/requires.txt
+[1.724s] writing top-level names to onrobot_driver.egg-info/top_level.txt
+[1.728s] reading manifest file 'onrobot_driver.egg-info/SOURCES.txt'
+[1.728s] writing manifest file 'onrobot_driver.egg-info/SOURCES.txt'
+[1.730s] running build_ext
+[1.731s] Creating /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot-driver.egg-link (link to .)
+[1.733s] Installing gripper_action_adapter script to /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/onrobot_driver
+[1.734s] Installing test script to /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/onrobot_driver
+[1.735s] 
+[1.735s] Installed /home/matteo-melzer/gazebo_test/build/onrobot_driver
+[1.737s] running symlink_data
+[1.775s] Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_driver' returned '0': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matteo-melzer/gazebo_test/build/onrobot_driver/build --no-deps symlink_data

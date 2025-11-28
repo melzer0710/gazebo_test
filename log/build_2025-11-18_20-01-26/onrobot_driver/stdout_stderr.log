@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing onrobot_driver.egg-info/PKG-INFO
+writing dependency_links to onrobot_driver.egg-info/dependency_links.txt
+writing entry points to onrobot_driver.egg-info/entry_points.txt
+writing requirements to onrobot_driver.egg-info/requires.txt
+writing top-level names to onrobot_driver.egg-info/top_level.txt
+reading manifest file 'onrobot_driver.egg-info/SOURCES.txt'
+writing manifest file 'onrobot_driver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/python3.10/site-packages/onrobot-driver.egg-link (link to .)
+Installing gripper_action_adapter script to /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/onrobot_driver
+Installing test script to /home/matteo-melzer/gazebo_test/install/onrobot_driver/lib/onrobot_driver
+
+Installed /home/matteo-melzer/gazebo_test/build/onrobot_driver
+running symlink_data
+symbolically linking /home/matteo-melzer/gazebo_test/build/onrobot_driver/resource/onrobot_driver -> /home/matteo-melzer/gazebo_test/install/onrobot_driver/share/ament_index/resource_index/packages
+symbolically linking /home/matteo-melzer/gazebo_test/build/onrobot_driver/package.xml -> /home/matteo-melzer/gazebo_test/install/onrobot_driver/share/onrobot_driver

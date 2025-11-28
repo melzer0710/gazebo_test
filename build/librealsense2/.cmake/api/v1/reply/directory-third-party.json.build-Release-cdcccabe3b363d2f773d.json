@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "third-party/json/build",
+		"source" : "/home/matteo-melzer/gazebo_test/build/librealsense2/third-party/json"
+	}
+}

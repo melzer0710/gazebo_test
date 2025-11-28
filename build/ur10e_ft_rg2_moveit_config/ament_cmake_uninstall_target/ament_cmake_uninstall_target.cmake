@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/matteo-melzer/gazebo_test/build/ur10e_ft_rg2_moveit_config/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

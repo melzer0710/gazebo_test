@@ -1,0 +1,1376 @@
+<sdf version='1.7'>
+  <world name='default'>
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <model name='ground_plane'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <physics type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>1</shadows>
+    </scene>
+    <audio>
+      <device>default</device>
+    </audio>
+    <wind/>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>0</latitude_deg>
+      <longitude_deg>0</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <model name='cobot'>
+      <joint name='base_joint' type='fixed'>
+        <pose relative_to='__model__'>1.3195 0.57082 0.927 0 -0 0</pose>
+        <parent>world</parent>
+        <child>base_link</child>
+      </joint>
+      <link name='base_link'>
+        <pose relative_to='base_joint'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>4</mass>
+          <inertia>
+            <ixx>0.00610633</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.00610633</iyy>
+            <iyz>0</iyz>
+            <izz>0.01125</izz>
+          </inertia>
+        </inertial>
+        <collision name='base_link_inertia_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='base_link_inertia_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='shoulder_pan_joint' type='revolute'>
+        <pose relative_to='base_link'>0 0 0.1807 0 -0 3.14159</pose>
+        <parent>base_link</parent>
+        <child>shoulder_link</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-6.28319</lower>
+            <upper>6.28319</upper>
+            <effort>330</effort>
+            <velocity>2.0944</velocity>
+          </limit>
+          <dynamics>
+            <damping>0</damping>
+            <friction>0</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='shoulder_link'>
+        <pose relative_to='shoulder_pan_joint'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0.021 -0.027 0 1.5708 -0 0</pose>
+          <mass>7.369</mass>
+          <inertia>
+            <ixx>0.03408</ixx>
+            <ixy>2e-05</ixy>
+            <ixz>-0.00425</ixz>
+            <iyy>0.03529</iyy>
+            <iyz>8e-05</iyz>
+            <izz>0.02156</izz>
+          </inertia>
+        </inertial>
+        <collision name='shoulder_link_collision'>
+          <pose>0 0 0 0 -0 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='shoulder_link_visual'>
+          <pose>0 0 0 0 -0 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='shoulder_lift_joint' type='revolute'>
+        <pose relative_to='shoulder_link'>0 0 0 1.5708 -0 0</pose>
+        <parent>shoulder_link</parent>
+        <child>upper_arm_link</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-6.28319</lower>
+            <upper>6.28319</upper>
+            <effort>330</effort>
+            <velocity>2.0944</velocity>
+          </limit>
+          <dynamics>
+            <damping>0</damping>
+            <friction>0</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='upper_arm_link'>
+        <pose relative_to='shoulder_lift_joint'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>-0.2327 0 0.158 0 -0 0</pose>
+          <mass>13.051</mass>
+          <inertia>
+            <ixx>0.02814</ixx>
+            <ixy>5e-05</ixy>
+            <ixz>-0.01561</ixz>
+            <iyy>0.77068</iyy>
+            <iyz>2e-05</iyz>
+            <izz>0.76943</izz>
+          </inertia>
+        </inertial>
+        <collision name='upper_arm_link_collision'>
+          <pose>0 0 0.1762 1.5708 0 -1.5708</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='upper_arm_link_visual'>
+          <pose>0 0 0.1762 1.5708 0 -1.5708</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='elbow_joint' type='revolute'>
+        <pose relative_to='upper_arm_link'>-0.6127 0 0 0 -0 0</pose>
+        <parent>upper_arm_link</parent>
+        <child>forearm_link</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-3.14159</lower>
+            <upper>3.14159</upper>
+            <effort>150</effort>
+            <velocity>3.14159</velocity>
+          </limit>
+          <dynamics>
+            <damping>0</damping>
+            <friction>0</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='forearm_link'>
+        <pose relative_to='elbow_joint'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>-0.33155 0 0.068 0 -0 0</pose>
+          <mass>3.989</mass>
+          <inertia>
+            <ixx>0.01014</ixx>
+            <ixy>8e-05</ixy>
+            <ixz>0.00916</ixz>
+            <iyy>0.30928</iyy>
+            <iyz>0</iyz>
+            <izz>0.30646</izz>
+          </inertia>
+        </inertial>
+        <collision name='forearm_link_collision'>
+          <pose>0 0 0.0393 1.5708 0 -1.5708</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='forearm_link_visual'>
+          <pose>0 0 0.0393 1.5708 0 -1.5708</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='wrist_1_joint' type='revolute'>
+        <pose relative_to='forearm_link'>-0.57155 0 0.17415 0 -0 0</pose>
+        <parent>forearm_link</parent>
+        <child>wrist_1_link</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-6.28319</lower>
+            <upper>6.28319</upper>
+            <effort>54</effort>
+            <velocity>3.14159</velocity>
+          </limit>
+          <dynamics>
+            <damping>0</damping>
+            <friction>0</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='wrist_1_link'>
+        <pose relative_to='wrist_1_joint'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 -0.018 0.007 1.5708 -0 0</pose>
+          <mass>2.1</mass>
+          <inertia>
+            <ixx>0.00296</ixx>
+            <ixy>-1e-05</ixy>
+            <ixz>0</ixz>
+            <iyy>0.00222</iyy>
+            <iyz>-0.00024</iyz>
+            <izz>0.00258</izz>
+          </inertia>
+        </inertial>
+        <collision name='wrist_1_link_collision'>
+          <pose>0 0 -0.135 1.5708 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='wrist_1_link_visual'>
+          <pose>0 0 -0.135 1.5708 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='wrist_2_joint' type='revolute'>
+        <pose relative_to='wrist_1_link'>0 -0.11985 -0 1.5708 -0 0</pose>
+        <parent>wrist_1_link</parent>
+        <child>wrist_2_link</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-6.28319</lower>
+            <upper>6.28319</upper>
+            <effort>54</effort>
+            <velocity>3.14159</velocity>
+          </limit>
+          <dynamics>
+            <damping>0</damping>
+            <friction>0</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='wrist_2_link'>
+        <pose relative_to='wrist_2_joint'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 0.018 -0.007 -1.5708 0 0</pose>
+          <mass>1.98</mass>
+          <inertia>
+            <ixx>0.00296</ixx>
+            <ixy>-1e-05</ixy>
+            <ixz>0</ixz>
+            <iyy>0.00222</iyy>
+            <iyz>-0.00024</iyz>
+            <izz>0.00258</izz>
+          </inertia>
+        </inertial>
+        <collision name='wrist_2_link_collision'>
+          <pose>0 0 -0.12 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='wrist_2_link_visual'>
+          <pose>0 0 -0.12 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='wrist_3_joint' type='revolute'>
+        <pose relative_to='wrist_2_link'>0 0.11655 -0 -1.5708 0 0</pose>
+        <parent>wrist_2_link</parent>
+        <child>wrist_3_link</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-6.28319</lower>
+            <upper>6.28319</upper>
+            <effort>54</effort>
+            <velocity>3.14159</velocity>
+          </limit>
+          <dynamics>
+            <damping>0</damping>
+            <friction>0</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='wrist_3_link'>
+        <pose relative_to='wrist_3_joint'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>6.6e-05 -0.00364 0.006754 0 -0 0</pose>
+          <mass>1.632</mass>
+          <inertia>
+            <ixx>0.00402995</ixx>
+            <ixy>7.51691e-06</ixy>
+            <ixz>-1.41453e-06</ixz>
+            <iyy>0.006952</iyy>
+            <iyz>2.38436e-05</iyz>
+            <izz>0.00629008</izz>
+          </inertia>
+        </inertial>
+        <collision name='wrist_3_link_collision'>
+          <pose>0 0 -0.1168 1.5708 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='wrist_3_link_fixed_joint_lump__camera_camera_link_collision_1'>
+          <pose>0.018998 -0.0825 0.0106 -1.57079 -1.57079 3.14159</pose>
+          <geometry>
+            <box>
+              <size>0.02505 0.09 0.025</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <friction>
+              <ode/>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='wrist_3_link_fixed_joint_lump__fts_link_collision_2'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://net_ft_description/meshes/collision/onrobot_hexe_v2_ft_sensor.stl</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='wrist_3_link_fixed_joint_lump__rg2_gripper_base_link_collision_3'>
+          <pose>-0 0 0.0375 0 -0 1.57</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/collision/base_link.stl</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='wrist_3_link_visual'>
+          <pose>0 0 -0.1168 1.5708 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>file:///home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__camera_camera_link_visual_1'>
+          <pose>0.001498 -0.082486 0.010614 1e-06 -0.000796 3.1408</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://realsense2_description/meshes/d435.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__fts_link_visual_2'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://net_ft_description/meshes/visual/onrobot_hexe_v2_ft_sensor.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__rg2_gripper_base_link_visual_3'>
+          <pose>-0 0 0.0375 0 -0 1.57</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/visual/base_link.stl</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <sensor name='camera_d435i' type='depth'>
+          <update_rate>30</update_rate>
+          <camera>
+            <horizontal_fov>1.5184</horizontal_fov>
+            <image>
+              <width>640</width>
+              <height>480</height>
+              <format>R8G8B8</format>
+            </image>
+            <clip>
+              <near>0.1</near>
+              <far>10</far>
+            </clip>
+          </camera>
+          <plugin name='camera_camera_controller' filename='libgazebo_ros_camera.so'>
+            <robotNamespace>/</robotNamespace>
+            <baseline>0.05</baseline>
+            <alwaysOn>1</alwaysOn>
+            <updateRate>30.0</updateRate>
+            <cameraName>camera_d435i</cameraName>
+            <imageTopicName>color/image_raw</imageTopicName>
+            <cameraInfoTopicName>color/camera_info</cameraInfoTopicName>
+            <depthImageTopicName>depth/image_rect_raw</depthImageTopicName>
+            <depthImageInfoTopicName>depth/camera_info</depthImageInfoTopicName>
+            <pointCloudTopicName>depth/color/points</pointCloudTopicName>
+            <frameName>camera_camera_depth_frame</frameName>
+            <pointCloudCutoff>0.1</pointCloudCutoff>
+            <pointCloudCutoffMax>10.0</pointCloudCutoffMax>
+            <hackBaseline>0.07</hackBaseline>
+            <distortionK1>0.0</distortionK1>
+            <distortionK2>0.0</distortionK2>
+            <distortionK3>0.0</distortionK3>
+            <distortionT1>0.0</distortionT1>
+            <distortionT2>0.0</distortionT2>
+          </plugin>
+          <pose>0.001499 -0.082486 0.010614 -3.14159 -1.57079 -1.57079</pose>
+        </sensor>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='rg2_gripper_base_link' type='revolute'>
+        <pose relative_to='wrist_3_link'>-0.017178 1.4e-05 0.163297 0 0 -1.57159</pose>
+        <parent>wrist_3_link</parent>
+        <child>rg2_gripper_right_outer_knuckle</child>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <limit>
+            <lower>-0.785398</lower>
+            <upper>0.785398</upper>
+            <effort>1000</effort>
+            <velocity>100</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='rg2_gripper_right_outer_knuckle'>
+        <pose relative_to='rg2_gripper_base_link'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>0.05</mass>
+          <inertia>
+            <ixx>0.001</ixx>
+            <ixy>1e-06</ixy>
+            <ixz>1e-06</ixz>
+            <iyy>0.001</iyy>
+            <iyz>1e-06</iyz>
+            <izz>0.001</izz>
+          </inertia>
+        </inertial>
+        <collision name='rg2_gripper_right_outer_knuckle_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/collision/outer_knuckle.stl</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <friction>
+              <ode>
+                <mu>0.1</mu>
+                <mu2>0.1</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='rg2_gripper_right_outer_knuckle_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/visual/outer_knuckle.stl</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='rg2_gripper_right_inner_finger_joint' type='revolute'>
+        <pose relative_to='rg2_gripper_right_outer_knuckle'>0 -0.039592 0.038177 0 -0 0</pose>
+        <parent>rg2_gripper_right_outer_knuckle</parent>
+        <child>rg2_gripper_right_inner_finger</child>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <limit>
+            <lower>-0.872665</lower>
+            <upper>0.872665</upper>
+            <effort>1000</effort>
+            <velocity>100</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='rg2_gripper_right_inner_finger'>
+        <pose relative_to='rg2_gripper_right_inner_finger_joint'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>0.05</mass>
+          <inertia>
+            <ixx>0.001</ixx>
+            <ixy>1e-06</ixy>
+            <ixz>1e-06</ixz>
+            <iyy>0.001</iyy>
+            <iyz>1e-06</iyz>
+            <izz>0.001</izz>
+          </inertia>
+        </inertial>
+        <collision name='rg2_gripper_right_inner_finger_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/collision/inner_finger.stl</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>1</kd>
+                <min_depth>1e-05</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='rg2_gripper_right_inner_finger_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/visual/inner_finger.stl</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/Black</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='rg2_gripper_finger_joint' type='revolute'>
+        <pose relative_to='wrist_3_link'>0.017178 -1.4e-05 0.163297 0 -0 1.57</pose>
+        <parent>wrist_3_link</parent>
+        <child>rg2_gripper_left_outer_knuckle</child>
+        <axis>
+          <xyz>-1 0 0</xyz>
+          <limit>
+            <lower>-0.558505</lower>
+            <upper>0.785398</upper>
+            <effort>1000</effort>
+            <velocity>100</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='rg2_gripper_left_outer_knuckle'>
+        <pose relative_to='rg2_gripper_finger_joint'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>0.05</mass>
+          <inertia>
+            <ixx>0.001</ixx>
+            <ixy>1e-06</ixy>
+            <ixz>1e-06</ixz>
+            <iyy>0.001</iyy>
+            <iyz>1e-06</iyz>
+            <izz>0.001</izz>
+          </inertia>
+        </inertial>
+        <collision name='rg2_gripper_left_outer_knuckle_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/collision/outer_knuckle.stl</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <friction>
+              <ode>
+                <mu>0.1</mu>
+                <mu2>0.1</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='rg2_gripper_left_outer_knuckle_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/visual/outer_knuckle.stl</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='rg2_gripper_left_inner_finger_joint' type='revolute'>
+        <pose relative_to='rg2_gripper_left_outer_knuckle'>0 -0.039592 0.038177 0 -0 0</pose>
+        <parent>rg2_gripper_left_outer_knuckle</parent>
+        <child>rg2_gripper_left_inner_finger</child>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <limit>
+            <lower>-0.872665</lower>
+            <upper>0.872665</upper>
+            <effort>1000</effort>
+            <velocity>100</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='rg2_gripper_left_inner_finger'>
+        <pose relative_to='rg2_gripper_left_inner_finger_joint'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>0.05</mass>
+          <inertia>
+            <ixx>0.001</ixx>
+            <ixy>1e-06</ixy>
+            <ixz>1e-06</ixz>
+            <iyy>0.001</iyy>
+            <iyz>1e-06</iyz>
+            <izz>0.001</izz>
+          </inertia>
+        </inertial>
+        <collision name='rg2_gripper_left_inner_finger_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/collision/inner_finger.stl</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>1</kd>
+                <min_depth>1e-05</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='rg2_gripper_left_inner_finger_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/visual/inner_finger.stl</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/Black</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='rg2_gripper_left_inner_knuckle_joint' type='revolute'>
+        <pose relative_to='wrist_3_link'>0.007678 -6e-06 0.179797 0 -0 1.57</pose>
+        <parent>wrist_3_link</parent>
+        <child>rg2_gripper_left_inner_knuckle</child>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <limit>
+            <lower>-0.785398</lower>
+            <upper>0.785398</upper>
+            <effort>1000</effort>
+            <velocity>100</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='rg2_gripper_left_inner_knuckle'>
+        <pose relative_to='rg2_gripper_left_inner_knuckle_joint'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>0.05</mass>
+          <inertia>
+            <ixx>0.001</ixx>
+            <ixy>1e-06</ixy>
+            <ixz>1e-06</ixz>
+            <iyy>0.001</iyy>
+            <iyz>1e-06</iyz>
+            <izz>0.001</izz>
+          </inertia>
+        </inertial>
+        <collision name='rg2_gripper_left_inner_knuckle_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/collision/inner_knuckle.stl</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <friction>
+              <ode>
+                <mu>0.1</mu>
+                <mu2>0.1</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='rg2_gripper_left_inner_knuckle_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/visual/inner_knuckle.stl</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='rg2_gripper_right_inner_knuckle_joint' type='revolute'>
+        <pose relative_to='wrist_3_link'>-0.007678 6e-06 0.179797 0 0 -1.57159</pose>
+        <parent>wrist_3_link</parent>
+        <child>rg2_gripper_right_inner_knuckle</child>
+        <axis>
+          <xyz>1 0 0</xyz>
+          <limit>
+            <lower>-0.785398</lower>
+            <upper>0.785398</upper>
+            <effort>1000</effort>
+            <velocity>100</velocity>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='rg2_gripper_right_inner_knuckle'>
+        <pose relative_to='rg2_gripper_right_inner_knuckle_joint'>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <mass>0.05</mass>
+          <inertia>
+            <ixx>0.001</ixx>
+            <ixy>1e-06</ixy>
+            <ixz>1e-06</ixz>
+            <iyy>0.001</iyy>
+            <iyz>1e-06</iyz>
+            <izz>0.001</izz>
+          </inertia>
+        </inertial>
+        <collision name='rg2_gripper_right_inner_knuckle_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/collision/inner_knuckle.stl</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <friction>
+              <ode>
+                <mu>0.1</mu>
+                <mu2>0.1</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='rg2_gripper_right_inner_knuckle_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://onrobot_rg_description/meshes/rg2/visual/inner_knuckle.stl</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/White</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <plugin name='gazebo_ros2_control' filename='libgazebo_ros2_control.so'>
+        <parameters>/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/config/ur10e_controllers_ft_rg2.yaml</parameters>
+      </plugin>
+      <static>0</static>
+      <plugin name='mimic_rg2_gripper_left_inner_knuckle_joint' filename='libroboticsgroup_upatras_gazebo_mimic_joint_plugin.so'>
+        <joint>rg2_gripper_finger_joint</joint>
+        <mimicJoint>rg2_gripper_left_inner_knuckle_joint</mimicJoint>
+        <multiplier>-1.0</multiplier>
+        <offset>0.0</offset>
+        <maxEffort>5.0</maxEffort>
+      </plugin>
+      <plugin name='mimic_rg2_gripper_right_inner_knuckle_joint' filename='libroboticsgroup_upatras_gazebo_mimic_joint_plugin.so'>
+        <joint>rg2_gripper_finger_joint</joint>
+        <mimicJoint>rg2_gripper_right_inner_knuckle_joint</mimicJoint>
+        <multiplier>-1.0</multiplier>
+        <offset>0.0</offset>
+        <maxEffort>5.0</maxEffort>
+      </plugin>
+      <plugin name='mimic_rg2_gripper_left_inner_finger_joint' filename='libroboticsgroup_upatras_gazebo_mimic_joint_plugin.so'>
+        <joint>rg2_gripper_finger_joint</joint>
+        <mimicJoint>rg2_gripper_left_inner_finger_joint</mimicJoint>
+        <multiplier>1.0</multiplier>
+        <offset>0.0</offset>
+        <maxEffort>5.0</maxEffort>
+      </plugin>
+      <plugin name='mimic_rg2_gripper_right_inner_finger_joint' filename='libroboticsgroup_upatras_gazebo_mimic_joint_plugin.so'>
+        <joint>rg2_gripper_finger_joint</joint>
+        <mimicJoint>rg2_gripper_right_inner_finger_joint</mimicJoint>
+        <multiplier>1.0</multiplier>
+        <offset>0.0</offset>
+        <maxEffort>5.0</maxEffort>
+      </plugin>
+      <plugin name='mimic_rg2_gripper_right_outer_knuckle_joint' filename='libroboticsgroup_upatras_gazebo_mimic_joint_plugin.so'>
+        <joint>rg2_gripper_finger_joint</joint>
+        <mimicJoint>rg2_gripper_right_outer_knuckle_joint</mimicJoint>
+        <multiplier>-1.0</multiplier>
+        <offset>0.0</offset>
+        <maxEffort>5.0</maxEffort>
+      </plugin>
+      <pose>0 0 0 0 -0 0</pose>
+    </model>
+    <state world_name='default'>
+      <sim_time>821 354000000</sim_time>
+      <real_time>677 865070430</real_time>
+      <wall_time>1764350485 541124004</wall_time>
+      <iterations>590479</iterations>
+      <model name='cobot'>
+        <pose>2e-06 7e-06 -6e-06 8e-06 -2e-06 -0</pose>
+        <scale>1 1 1</scale>
+        <link name='base_link'>
+          <pose>1.3195 0.57082 0.927001 8e-06 -2e-06 -0</pose>
+          <velocity>-1e-06 0 3e-05 -0.004325 -0.004855 9e-06</velocity>
+          <acceleration>-0.001339 9.8e-05 -0.224099 1.5056 0.265416 0.009947</acceleration>
+          <wrench>-0.005355 0.000392 -0.896398 0 -0 0</wrench>
+        </link>
+        <link name='forearm_link'>
+          <pose>1.31999 0.570945 1.7204 1.83162 1.56998 -2.88069</pose>
+          <velocity>0.000476 0.009457 6.4e-05 -0.012234 0.001097 -0.004001</velocity>
+          <acceleration>-0.195521 -0.115138 -0.196222 2.95633 0.669251 -1.89962</acceleration>
+          <wrench>-0.779935 -0.459285 -0.782731 0 -0 0</wrench>
+        </link>
+        <link name='rg2_gripper_left_inner_finger'>
+          <pose>1.37735 1.06327 2.41164 1.88628 1.56997 -2.82601</pose>
+          <velocity>0.001685 0.017904 -0.005418 -0.009709 0.003702 -3e-06</velocity>
+          <acceleration>-0.041348 -0.081001 0.36033 -0.731726 0.597278 -3.13888</acceleration>
+          <wrench>-0.002067 -0.00405 0.018016 0 -0 0</wrench>
+        </link>
+        <link name='rg2_gripper_left_inner_knuckle'>
+          <pose>1.32826 1.04159 2.41168 1.88363 1.56998 -2.82863</pose>
+          <velocity>0.001683 0.017899 -0.005051 -0.009904 0.003754 -3e-06</velocity>
+          <acceleration>-0.043663 -0.086181 0.407207 -0.926364 0.545309 -3.13838</acceleration>
+          <wrench>-0.002183 -0.004309 0.02036 0 -0 0</wrench>
+        </link>
+        <link name='rg2_gripper_left_outer_knuckle'>
+          <pose>1.33776 1.02509 2.41168 1.88675 1.56997 -2.82552</pose>
+          <velocity>0.001688 0.0179 -0.004886 -0.009675 0.003701 6.8e-05</velocity>
+          <acceleration>-0.038473 -0.08518 0.383295 -0.697825 0.597465 -3.06769</acceleration>
+          <wrench>-0.001924 -0.004259 0.019165 0 -0 0</wrench>
+        </link>
+        <link name='rg2_gripper_right_inner_finger'>
+          <pose>1.26381 1.06326 2.41173 -1.88801 -1.56997 0.31726</pose>
+          <velocity>-0.000764 0.015347 -0.00496 -0.009604 0.003779 -0.054337</velocity>
+          <acceleration>-1.81793 34.2057 -11.7752 -2.85609 -0.16868 0.030987</acceleration>
+          <wrench>-0.090897 1.71028 -0.588758 0 -0 0</wrench>
+        </link>
+        <link name='rg2_gripper_right_inner_knuckle'>
+          <pose>1.31291 1.04159 2.41169 -1.88171 -1.56997 0.310998</pose>
+          <velocity>0.001683 0.017894 -0.005006 -0.009971 0.003756 -8e-06</velocity>
+          <acceleration>-0.043601 -0.091307 0.434802 -0.998452 0.548239 3.13456</acceleration>
+          <wrench>-0.00218 -0.004565 0.02174 0 -0 0</wrench>
+        </link>
+        <link name='rg2_gripper_right_outer_knuckle'>
+          <pose>1.30341 1.02509 2.4117 -1.88844 -1.56997 0.317788</pose>
+          <velocity>0.001688 0.01789 -0.004733 -0.009476 0.003809 0.064244</velocity>
+          <acceleration>-0.037863 -0.095952 0.4966 -0.503592 0.494754 -1.7281</acceleration>
+          <wrench>-0.001893 -0.004798 0.02483 0 -0 0</wrench>
+        </link>
+        <link name='shoulder_link'>
+          <pose>1.3195 0.570815 1.1077 0.000169 9e-06 -3.14151</pose>
+          <velocity>-0.000674 0.001939 4.9e-05 -0.0122 -0.003174 -0.004238</velocity>
+          <acceleration>-0.769975 -0.161359 -0.298903 3.04662 1.16124 -1.076</acceleration>
+          <wrench>-5.67395 -1.18905 -2.20262 0 -0 0</wrench>
+        </link>
+        <link name='upper_arm_link'>
+          <pose>1.3195 0.570815 1.1077 1.8301 1.56998 -2.88221</pose>
+          <velocity>-0.00068 0.001971 6e-05 -0.012242 0.001882 -0.004071</velocity>
+          <acceleration>-0.079389 -0.188444 -0.215229 3.14032 0.154151 -2.91794</acceleration>
+          <wrench>-1.03611 -2.45939 -2.80896 0 -0 0</wrench>
+        </link>
+        <link name='wrist_1_link'>
+          <pose>1.32042 0.745217 2.29191 -1.571 0.001586 8.1e-05</pose>
+          <velocity>0.001793 0.016405 -0.002042 -0.012711 -0.00012 -0.003906</velocity>
+          <acceleration>0.210531 -0.118993 -0.187582 2.54856 -0.827584 -0.550444</acceleration>
+          <wrench>0.442115 -0.249885 -0.393922 0 -0 0</wrench>
+        </link>
+        <link name='wrist_2_link'>
+          <pose>1.32061 0.745243 2.41176 -0.000229 0.001586 0.000103</pose>
+          <velocity>0.001779 0.017906 -0.001999 -0.011429 -8.3e-05 0.000335</velocity>
+          <acceleration>0.055607 -0.075819 -0.127691 0.684723 -1.24503 0.33594</acceleration>
+          <wrench>0.110102 -0.150121 -0.252827 0 -0 0</wrench>
+        </link>
+        <link name='wrist_3_link'>
+          <pose>1.3206 0.861793 2.41173 -1.57105 0.001577 0.000103</pose>
+          <velocity>0.00174 0.017899 -0.003246 -0.010082 0.003754 0.000321</velocity>
+          <acceleration>0.02162 -0.093991 0.038731 -1.10415 0.271496 -2.83109</acceleration>
+          <wrench>0.035284 -0.153393 0.063209 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='ground_plane'>
+        <pose>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='setup_matteo'>
+        <pose>-8e-06 1.31953 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-8e-06 1.31953 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <light name='sun'>
+        <pose>0 0 10 0 -0 0</pose>
+      </light>
+    </state>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>3.75737 -2.78914 2.57259 0 0.437795 2.36784</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+    <model name='setup_matteo'>
+      <static>1</static>
+      <link name='link'>
+        <gravity>1</gravity>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose>0.6585 0.7235 0.4635 0 -0 0</pose>
+          <mass>1</mass>
+          <inertia>
+            <ixx>24.609</ixx>
+            <iyy>21.615</iyy>
+            <izz>31.902</izz>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyz>0</iyz>
+          </inertia>
+        </inertial>
+        <visual name='visual'>
+          <pose>0 0 0 1.57 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://setup_matteo/meshes/setup_matteo.dae</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+          <cast_shadows>0</cast_shadows>
+        </visual>
+        <collision name='col_box'>
+          <pose>0.7235 -0.6585 0.4635 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>1.447 1.317 0.927</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <friction>
+              <ode/>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.031718 1.31757 0 0 -0 0</pose>
+    </model>
+  </world>
+</sdf>
