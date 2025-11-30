@@ -1,1 +1,0 @@
-/home/matteo-melzer/gazebo_test/src/realsense-ros/realsense2_camera/include/ros_sensor.h

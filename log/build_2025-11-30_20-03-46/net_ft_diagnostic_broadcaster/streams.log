@@ -1,0 +1,76 @@
+[0.034s] Invoking command in '/home/matteo-melzer/gazebo_test/build/net_ft_diagnostic_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster
+[0.154s] -- The C compiler identification is GNU 11.4.0
+[0.317s] -- The CXX compiler identification is GNU 11.4.0
+[0.337s] -- Detecting C compiler ABI info
+[0.554s] -- Detecting C compiler ABI info - done
+[0.581s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.581s] -- Detecting C compile features
+[0.581s] -- Detecting C compile features - done
+[0.587s] -- Detecting CXX compiler ABI info
+[0.813s] -- Detecting CXX compiler ABI info - done
+[0.826s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.827s] -- Detecting CXX compile features
+[0.830s] -- Detecting CXX compile features - done
+[0.853s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.203s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.284s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.556s] -- Found controller_interface: 2.51.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.806s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.829s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.854s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.890s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.463s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.474s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.556s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.687s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.690s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.708s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.711s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.721s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.739s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.789s] -- Looking for pthread.h
+[2.901s] -- Looking for pthread.h - found
+[2.902s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.033s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.033s] -- Found Threads: TRUE  
+[3.180s] -- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[3.244s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[3.394s] -- Configuring done
+[3.421s] -- Generating done
+[3.430s] -- Build files have been written to: /home/matteo-melzer/gazebo_test/build/net_ft_diagnostic_broadcaster
+[3.449s] Invoked command in '/home/matteo-melzer/gazebo_test/build/net_ft_diagnostic_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/ros2_net_ft_driver/net_ft_diagnostic_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster
+[3.450s] Invoking command in '/home/matteo-melzer/gazebo_test/build/net_ft_diagnostic_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/net_ft_diagnostic_broadcaster -- -j2 -l2
+[3.642s] [ 50%] [32mBuilding CXX object CMakeFiles/net_ft_diagnostic_broadcaster.dir/src/net_ft_diagnostic_broadcaster.cpp.o[0m
+[8.546s] [100%] [32m[1mLinking CXX shared library libnet_ft_diagnostic_broadcaster.so[0m
+[8.782s] [100%] Built target net_ft_diagnostic_broadcaster
+[8.802s] Invoked command in '/home/matteo-melzer/gazebo_test/build/net_ft_diagnostic_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/net_ft_diagnostic_broadcaster -- -j2 -l2
+[8.806s] Invoking command in '/home/matteo-melzer/gazebo_test/build/net_ft_diagnostic_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/net_ft_diagnostic_broadcaster
+[8.822s] -- Install configuration: ""
+[8.823s] -- Execute custom install script
+[8.823s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster//controller_plugins.xml
+[8.840s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/lib/libnet_ft_diagnostic_broadcaster.so
+[8.855s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/include/net_ft_diagnostic_broadcaster/net_ft_diagnostic_broadcaster.hpp
+[8.872s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/controller_plugins.xml
+[8.874s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/environment/library_path.sh
+[8.889s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/environment/library_path.dsv
+[8.905s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/ament_index/resource_index/package_run_dependencies/net_ft_diagnostic_broadcaster
+[8.921s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/ament_index/resource_index/parent_prefix_path/net_ft_diagnostic_broadcaster
+[8.936s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/environment/ament_prefix_path.sh
+[8.951s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/environment/ament_prefix_path.dsv
+[8.966s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/environment/path.sh
+[8.979s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/environment/path.dsv
+[8.994s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/local_setup.bash
+[9.008s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/local_setup.sh
+[9.022s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/local_setup.zsh
+[9.037s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/local_setup.dsv
+[9.051s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/package.dsv
+[9.065s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/ament_index/resource_index/packages/net_ft_diagnostic_broadcaster
+[9.078s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/net_ft_diagnostic_broadcaster
+[9.094s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.108s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.123s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+[9.139s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/cmake/net_ft_diagnostic_broadcasterConfig.cmake
+[9.152s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/cmake/net_ft_diagnostic_broadcasterConfig-version.cmake
+[9.166s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_diagnostic_broadcaster/share/net_ft_diagnostic_broadcaster/package.xml
+[9.181s] Invoked command in '/home/matteo-melzer/gazebo_test/build/net_ft_diagnostic_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/net_ft_diagnostic_broadcaster

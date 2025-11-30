@@ -1,0 +1,287 @@
+[0.020s] Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/onrobot-ros2/onrobot_rg_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.171s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.295s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.295s] -- Detecting C compile features
+[0.296s] -- Detecting C compile features - done
+[0.299s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.429s] -- Detecting CXX compile features
+[0.430s] -- Detecting CXX compile features - done
+[0.444s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.641s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.720s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.888s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.007s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.037s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.066s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.102s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.210s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.232s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.582s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.383s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.394s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.434s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.434s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.434s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.435s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.467s] -- Found PythonExtra: .so  
+[2.608s] -- Configuring done
+[2.697s] -- Generating done
+[2.721s] -- Build files have been written to: /home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs
+[2.735s] Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/onrobot-ros2/onrobot_rg_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs
+[2.736s] Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs -- -j2 -l2
+[2.846s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.602s] [  1%] Built target onrobot_rg_msgs__cpp
+[3.626s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.465s] [  5%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_generator_c.dir/rosidl_generator_c/onrobot_rg_msgs/msg/detail/on_robot_rg_input__functions.c.o[0m
+[4.519s] [  7%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_generator_c.dir/rosidl_generator_c/onrobot_rg_msgs/msg/detail/on_robot_rg_output__functions.c.o[0m
+[4.580s] [  9%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_generator_c.dir/rosidl_generator_c/onrobot_rg_msgs/srv/detail/set_command__functions.c.o[0m
+[4.654s] [ 10%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_generator_c.dir/rosidl_generator_c/onrobot_rg_msgs/srv/detail/gripper_pose__functions.c.o[0m
+[4.723s] [ 12%] [32m[1mLinking C shared library libonrobot_rg_msgs__rosidl_generator_c.so[0m
+[4.787s] [ 12%] Built target onrobot_rg_msgs__rosidl_generator_c
+[4.848s] [ 12%] Built target ament_cmake_python_symlink_onrobot_rg_msgs
+[4.878s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.422s] [ 16%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/onrobot_rg_msgs/msg/on_robot_rg_input__type_support.cpp.o[0m
+[5.675s] [ 18%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/onrobot_rg_msgs/msg/on_robot_rg_output__type_support.cpp.o[0m
+[6.023s] [ 20%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/onrobot_rg_msgs/srv/set_command__type_support.cpp.o[0m
+[6.276s] [ 21%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/onrobot_rg_msgs/srv/gripper_pose__type_support.cpp.o[0m
+[6.528s] [ 23%] [32m[1mLinking CXX shared library libonrobot_rg_msgs__rosidl_typesupport_cpp.so[0m
+[6.580s] [ 23%] Built target onrobot_rg_msgs__rosidl_typesupport_cpp
+[6.597s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.441s] [ 27%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/onrobot_rg_msgs/msg/detail/on_robot_rg_input__type_support_c.cpp.o[0m
+[7.873s] [ 29%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/onrobot_rg_msgs/msg/detail/on_robot_rg_output__type_support_c.cpp.o[0m
+[8.212s] [ 30%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/onrobot_rg_msgs/srv/detail/set_command__type_support_c.cpp.o[0m
+[8.526s] [ 32%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/onrobot_rg_msgs/srv/detail/gripper_pose__type_support_c.cpp.o[0m
+[8.796s] [ 34%] [32m[1mLinking CXX shared library libonrobot_rg_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.876s] [ 34%] Built target onrobot_rg_msgs__rosidl_typesupport_fastrtps_c
+[8.894s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.343s] [ 38%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/onrobot_rg_msgs/msg/detail/dds_fastrtps/on_robot_rg_input__type_support.cpp.o[0m
+[9.707s] [ 40%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/onrobot_rg_msgs/msg/detail/dds_fastrtps/on_robot_rg_output__type_support.cpp.o[0m
+[10.062s] [ 41%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/onrobot_rg_msgs/srv/detail/dds_fastrtps/set_command__type_support.cpp.o[0m
+[10.380s] [ 43%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/onrobot_rg_msgs/srv/detail/dds_fastrtps/gripper_pose__type_support.cpp.o[0m
+[10.698s] [ 45%] [32m[1mLinking CXX shared library libonrobot_rg_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.786s] [ 45%] Built target onrobot_rg_msgs__rosidl_typesupport_fastrtps_cpp
+[10.807s] [ 47%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.234s] [ 49%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/onrobot_rg_msgs/msg/detail/on_robot_rg_input__type_support.c.o[0m
+[11.284s] [ 50%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/onrobot_rg_msgs/msg/detail/on_robot_rg_output__type_support.c.o[0m
+[11.341s] [ 52%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/onrobot_rg_msgs/srv/detail/set_command__type_support.c.o[0m
+[11.406s] [ 54%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/onrobot_rg_msgs/srv/detail/gripper_pose__type_support.c.o[0m
+[11.466s] [ 56%] [32m[1mLinking C shared library libonrobot_rg_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.537s] [ 56%] Built target onrobot_rg_msgs__rosidl_typesupport_introspection_c
+[11.558s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.921s] [ 60%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/onrobot_rg_msgs/msg/on_robot_rg_input__type_support.cpp.o[0m
+[11.960s] [ 61%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/onrobot_rg_msgs/msg/on_robot_rg_output__type_support.cpp.o[0m
+[12.001s] [ 63%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/onrobot_rg_msgs/srv/set_command__type_support.cpp.o[0m
+[12.041s] [ 65%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/onrobot_rg_msgs/srv/gripper_pose__type_support.cpp.o[0m
+[12.083s] [ 67%] [32m[1mLinking CXX shared library libonrobot_rg_msgs__rosidl_typesupport_c.so[0m
+[12.142s] [ 67%] Built target onrobot_rg_msgs__rosidl_typesupport_c
+[12.163s] [ 69%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.590s] [ 70%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/onrobot_rg_msgs/msg/detail/on_robot_rg_input__type_support.cpp.o[0m
+[12.922s] [ 72%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/onrobot_rg_msgs/msg/detail/on_robot_rg_output__type_support.cpp.o[0m
+[13.258s] [ 74%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/onrobot_rg_msgs/srv/detail/set_command__type_support.cpp.o[0m
+[13.581s] [ 76%] [32mBuilding CXX object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/onrobot_rg_msgs/srv/detail/gripper_pose__type_support.cpp.o[0m
+[13.908s] [ 78%] [32m[1mLinking CXX shared library libonrobot_rg_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[13.980s] [ 78%] Built target onrobot_rg_msgs__rosidl_typesupport_introspection_cpp
+[14.227s] running egg_info
+[14.228s] creating onrobot_rg_msgs.egg-info
+[14.228s] writing onrobot_rg_msgs.egg-info/PKG-INFO
+[14.228s] writing dependency_links to onrobot_rg_msgs.egg-info/dependency_links.txt
+[14.228s] writing top-level names to onrobot_rg_msgs.egg-info/top_level.txt
+[14.229s] writing manifest file 'onrobot_rg_msgs.egg-info/SOURCES.txt'
+[14.231s] reading manifest file 'onrobot_rg_msgs.egg-info/SOURCES.txt'
+[14.231s] writing manifest file 'onrobot_rg_msgs.egg-info/SOURCES.txt'
+[14.264s] [ 78%] Built target ament_cmake_python_build_onrobot_rg_msgs_egg
+[14.303s] [ 78%] Built target onrobot_rg_msgs
+[14.340s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.114s] [ 80%] Built target onrobot_rg_msgs__py
+[15.150s] [ 81%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_generator_py.dir/rosidl_generator_py/onrobot_rg_msgs/msg/_on_robot_rg_input_s.c.o[0m
+[15.238s] [ 83%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_generator_py.dir/rosidl_generator_py/onrobot_rg_msgs/msg/_on_robot_rg_output_s.c.o[0m
+[15.328s] [ 85%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_generator_py.dir/rosidl_generator_py/onrobot_rg_msgs/srv/_set_command_s.c.o[0m
+[15.429s] [ 87%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_generator_py.dir/rosidl_generator_py/onrobot_rg_msgs/srv/_gripper_pose_s.c.o[0m
+[15.524s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/onrobot_rg_msgs/libonrobot_rg_msgs__rosidl_generator_py.so[0m
+[15.585s] [ 89%] Built target onrobot_rg_msgs__rosidl_generator_py
+[15.629s] [ 90%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/onrobot_rg_msgs/_onrobot_rg_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.742s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/onrobot_rg_msgs/onrobot_rg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.799s] [ 92%] Built target onrobot_rg_msgs__rosidl_typesupport_fastrtps_c__pyext
+[15.835s] [ 94%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/onrobot_rg_msgs/_onrobot_rg_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.940s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/onrobot_rg_msgs/onrobot_rg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.998s] [ 96%] Built target onrobot_rg_msgs__rosidl_typesupport_introspection_c__pyext
+[16.034s] [ 98%] [32mBuilding C object CMakeFiles/onrobot_rg_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/onrobot_rg_msgs/_onrobot_rg_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[16.149s] [100%] [32m[1mLinking C shared library rosidl_generator_py/onrobot_rg_msgs/onrobot_rg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.205s] [100%] Built target onrobot_rg_msgs__rosidl_typesupport_c__pyext
+[16.226s] Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs -- -j2 -l2
+[16.227s] Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs
+[16.241s] -- Install configuration: ""
+[16.242s] -- Execute custom install script
+[16.242s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/ament_index/resource_index/rosidl_interfaces/onrobot_rg_msgs
+[16.259s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_input__functions.h
+[16.273s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_input__struct.h
+[16.287s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_input__type_support.h
+[16.300s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_output__functions.h
+[16.314s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_output__struct.h
+[16.328s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_output__type_support.h
+[16.342s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/on_robot_rg_input.h
+[16.355s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/on_robot_rg_output.h
+[16.369s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/rosidl_generator_c__visibility_control.h
+[16.388s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/gripper_pose__functions.h
+[16.404s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/gripper_pose__struct.h
+[16.420s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/gripper_pose__type_support.h
+[16.434s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/set_command__functions.h
+[16.448s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/set_command__struct.h
+[16.462s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/set_command__type_support.h
+[16.477s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/gripper_pose.h
+[16.491s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/set_command.h
+[16.505s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/environment/library_path.sh
+[16.522s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/environment/library_path.dsv
+[16.538s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_input__rosidl_typesupport_fastrtps_c.h
+[16.553s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_output__rosidl_typesupport_fastrtps_c.h
+[16.567s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.581s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/gripper_pose__rosidl_typesupport_fastrtps_c.h
+[16.597s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/set_command__rosidl_typesupport_fastrtps_c.h
+[16.612s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_input__builder.hpp
+[16.627s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_input__struct.hpp
+[16.642s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_input__traits.hpp
+[16.656s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_input__type_support.hpp
+[16.668s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_output__builder.hpp
+[16.682s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_output__struct.hpp
+[16.693s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_output__traits.hpp
+[16.708s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_output__type_support.hpp
+[16.723s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/on_robot_rg_input.hpp
+[16.738s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/on_robot_rg_output.hpp
+[16.753s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.766s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/gripper_pose__builder.hpp
+[16.782s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/gripper_pose__struct.hpp
+[16.798s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/gripper_pose__traits.hpp
+[16.815s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/gripper_pose__type_support.hpp
+[16.830s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/set_command__builder.hpp
+[16.850s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/set_command__struct.hpp
+[16.865s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/set_command__traits.hpp
+[16.881s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/set_command__type_support.hpp
+[16.897s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/gripper_pose.hpp
+[16.916s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/set_command.hpp
+[16.935s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_input__rosidl_typesupport_fastrtps_cpp.hpp
+[16.948s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_output__rosidl_typesupport_fastrtps_cpp.hpp
+[16.965s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.980s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/gripper_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[16.999s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/set_command__rosidl_typesupport_fastrtps_cpp.hpp
+[17.017s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_input__rosidl_typesupport_introspection_c.h
+[17.031s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_output__rosidl_typesupport_introspection_c.h
+[17.051s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.067s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/gripper_pose__rosidl_typesupport_introspection_c.h
+[17.080s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/set_command__rosidl_typesupport_introspection_c.h
+[17.094s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_input__rosidl_typesupport_introspection_cpp.hpp
+[17.108s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/msg/detail/on_robot_rg_output__rosidl_typesupport_introspection_cpp.hpp
+[17.120s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/gripper_pose__rosidl_typesupport_introspection_cpp.hpp
+[17.133s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/include/onrobot_rg_msgs/onrobot_rg_msgs/srv/detail/set_command__rosidl_typesupport_introspection_cpp.hpp
+[17.145s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/environment/pythonpath.sh
+[17.158s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/environment/pythonpath.dsv
+[17.171s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[17.187s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[17.204s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[17.222s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[17.238s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/__init__.py
+[17.251s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/_onrobot_rg_msgs_s.ep.rosidl_typesupport_c.c
+[17.265s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/_onrobot_rg_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.282s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/_onrobot_rg_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[17.294s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/libonrobot_rg_msgs__rosidl_generator_py.so
+[17.307s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/msg/__init__.py
+[17.320s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/msg/_on_robot_rg_input.py
+[17.334s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/msg/_on_robot_rg_input_s.c
+[17.348s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/msg/_on_robot_rg_output.py
+[17.360s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/msg/_on_robot_rg_output_s.c
+[17.373s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/onrobot_rg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.387s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/onrobot_rg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.403s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/onrobot_rg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.416s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/srv/__init__.py
+[17.429s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/srv/_gripper_pose.py
+[17.442s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/srv/_gripper_pose_s.c
+[17.455s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/srv/_set_command.py
+[17.468s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/srv/_set_command_s.c
+[17.480s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/onrobot_rg_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.481s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/onrobot_rg_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.481s] -- Up-to-date symlink: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/onrobot_rg_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.483s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/msg/OnRobotRGInput.idl
+[17.497s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/msg/OnRobotRGOutput.idl
+[17.509s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/srv/SetCommand.idl
+[17.523s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/srv/GripperPose.idl
+[17.542s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/msg/OnRobotRGInput.msg
+[17.557s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/msg/OnRobotRGOutput.msg
+[17.574s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/srv/SetCommand.srv
+[17.588s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/srv/SetCommand_Request.msg
+[17.602s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/srv/SetCommand_Response.msg
+[17.615s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/srv/GripperPose.srv
+[17.633s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/srv/GripperPose_Request.msg
+[17.648s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/srv/GripperPose_Response.msg
+[17.664s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/ament_index/resource_index/package_run_dependencies/onrobot_rg_msgs
+[17.679s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/ament_index/resource_index/parent_prefix_path/onrobot_rg_msgs
+[17.692s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/environment/ament_prefix_path.sh
+[17.708s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/environment/ament_prefix_path.dsv
+[17.724s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/environment/path.sh
+[17.739s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/environment/path.dsv
+[17.754s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/local_setup.bash
+[17.768s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/local_setup.sh
+[17.783s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/local_setup.zsh
+[17.799s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/local_setup.dsv
+[17.814s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/package.dsv
+[17.831s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/ament_index/resource_index/packages/onrobot_rg_msgs
+[17.849s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/rosidl_cmake-extras.cmake
+[17.863s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.879s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.891s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[17.905s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[17.918s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.935s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.950s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/onrobot_rg_msgsConfig.cmake
+[17.963s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/onrobot_rg_msgsConfig-version.cmake
+[17.977s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/package.xml
+[17.993s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_generator_c.so
+[17.993s] -- Set runtime path of "/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_generator_c.so" to ""
+[17.993s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_typesupport_fastrtps_c.so
+[17.993s] -- Set runtime path of "/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[17.993s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_typesupport_fastrtps_cpp.so
+[17.995s] -- Set runtime path of "/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.996s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_typesupport_introspection_c.so
+[17.996s] -- Set runtime path of "/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_typesupport_introspection_c.so" to ""
+[17.996s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_typesupport_c.so
+[17.996s] -- Set runtime path of "/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_typesupport_c.so" to ""
+[17.996s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_typesupport_introspection_cpp.so
+[17.996s] -- Set runtime path of "/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[17.997s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_typesupport_cpp.so
+[17.997s] -- Set runtime path of "/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_typesupport_cpp.so" to ""
+[18.037s] Listing '/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs'...
+[18.037s] Compiling '/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/__init__.py'...
+[18.037s] Listing '/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/msg'...
+[18.037s] Compiling '/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/msg/__init__.py'...
+[18.037s] Compiling '/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/msg/_on_robot_rg_input.py'...
+[18.037s] Compiling '/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/msg/_on_robot_rg_output.py'...
+[18.037s] Listing '/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/srv'...
+[18.037s] Compiling '/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/srv/__init__.py'...
+[18.037s] Compiling '/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/srv/_gripper_pose.py'...
+[18.037s] Compiling '/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/local/lib/python3.10/dist-packages/onrobot_rg_msgs/srv/_set_command.py'...
+[18.039s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_generator_py.so
+[18.040s] -- Set runtime path of "/home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/lib/libonrobot_rg_msgs__rosidl_generator_py.so" to ""
+[18.040s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/export_onrobot_rg_msgs__rosidl_generator_cExport.cmake
+[18.040s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/export_onrobot_rg_msgs__rosidl_generator_cExport-noconfig.cmake
+[18.041s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/export_onrobot_rg_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[18.041s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/export_onrobot_rg_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.041s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/export_onrobot_rg_msgs__rosidl_generator_cppExport.cmake
+[18.041s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/export_onrobot_rg_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.042s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/export_onrobot_rg_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.042s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/onrobot_rg_msgs__rosidl_typesupport_introspection_cExport.cmake
+[18.042s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/onrobot_rg_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.043s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/onrobot_rg_msgs__rosidl_typesupport_cExport.cmake
+[18.043s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/onrobot_rg_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[18.043s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/onrobot_rg_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[18.043s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/onrobot_rg_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.044s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/onrobot_rg_msgs__rosidl_typesupport_cppExport.cmake
+[18.044s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/onrobot_rg_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[18.044s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/export_onrobot_rg_msgs__rosidl_generator_pyExport.cmake
+[18.044s] -- Installing: /home/matteo-melzer/gazebo_test/install/onrobot_rg_msgs/share/onrobot_rg_msgs/cmake/export_onrobot_rg_msgs__rosidl_generator_pyExport-noconfig.cmake
+[18.048s] Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/onrobot_rg_msgs

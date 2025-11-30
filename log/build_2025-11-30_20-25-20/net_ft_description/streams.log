@@ -1,0 +1,50 @@
+[0.035s] Invoking command in '/home/matteo-melzer/gazebo_test/build/net_ft_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/ros2_net_ft_driver/net_ft_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/net_ft_description
+[0.159s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.264s] -- Detecting C compiler ABI info
+[0.565s] -- Detecting C compiler ABI info - done
+[0.576s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.576s] -- Detecting C compile features
+[0.576s] -- Detecting C compile features - done
+[0.588s] -- Detecting CXX compiler ABI info
+[0.869s] -- Detecting CXX compiler ABI info - done
+[0.885s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.887s] -- Detecting CXX compile features
+[0.887s] -- Detecting CXX compile features - done
+[0.907s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.383s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.467s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.766s] -- Configuring done
+[1.773s] -- Generating done
+[1.776s] -- Build files have been written to: /home/matteo-melzer/gazebo_test/build/net_ft_description
+[1.789s] Invoked command in '/home/matteo-melzer/gazebo_test/build/net_ft_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/ros2_net_ft_driver/net_ft_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/net_ft_description
+[1.790s] Invoking command in '/home/matteo-melzer/gazebo_test/build/net_ft_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/net_ft_description -- -j2 -l2
+[1.980s] Invoked command in '/home/matteo-melzer/gazebo_test/build/net_ft_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/net_ft_description -- -j2 -l2
+[1.984s] Invoking command in '/home/matteo-melzer/gazebo_test/build/net_ft_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/net_ft_description
+[2.010s] -- Install configuration: ""
+[2.013s] -- Execute custom install script
+[2.013s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/urdf/net_ft_sensor.ros2_control.xacro
+[2.042s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/urdf/net_ft_sensor.urdf.xacro
+[2.075s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/urdf/net_ft_sensor_macro.urdf.xacro
+[2.103s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/meshes/collision/ati_axia80_ft_sensor.stl
+[2.128s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/meshes/collision/ati_gamma_ip65_ft_sensor.stl
+[2.148s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/meshes/collision/onrobot_hexe_v2_ft_sensor.stl
+[2.186s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/meshes/visual/ati_axia80_ft_sensor.dae
+[2.219s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/meshes/visual/ati_gamma_ip65_ft_sensor.dae
+[2.247s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/meshes/visual/onrobot_hexe_v2_ft_sensor.dae
+[2.274s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/ament_index/resource_index/package_run_dependencies/net_ft_description
+[2.296s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/ament_index/resource_index/parent_prefix_path/net_ft_description
+[2.337s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/environment/ament_prefix_path.sh
+[2.372s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/environment/ament_prefix_path.dsv
+[2.411s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/environment/path.sh
+[2.462s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/environment/path.dsv
+[2.507s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/local_setup.bash
+[2.554s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/local_setup.sh
+[2.585s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/local_setup.zsh
+[2.613s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/local_setup.dsv
+[2.642s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/package.dsv
+[2.669s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/ament_index/resource_index/packages/net_ft_description
+[2.700s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/cmake/net_ft_descriptionConfig.cmake
+[2.713s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/cmake/net_ft_descriptionConfig-version.cmake
+[2.736s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/net_ft_description/share/net_ft_description/package.xml
+[2.762s] Invoked command in '/home/matteo-melzer/gazebo_test/build/net_ft_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/net_ft_description

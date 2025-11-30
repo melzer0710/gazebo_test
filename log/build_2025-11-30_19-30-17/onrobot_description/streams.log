@@ -1,0 +1,106 @@
+[0.045s] Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/onrobot_description
+[0.291s] -- The C compiler identification is GNU 11.4.0
+[0.429s] -- The CXX compiler identification is GNU 11.4.0
+[0.458s] -- Detecting C compiler ABI info
+[0.653s] -- Detecting C compiler ABI info - done
+[0.668s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.668s] -- Detecting C compile features
+[0.668s] -- Detecting C compile features - done
+[0.671s] -- Detecting CXX compiler ABI info
+[0.786s] -- Detecting CXX compiler ABI info - done
+[0.791s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.792s] -- Detecting CXX compile features
+[0.793s] -- Detecting CXX compile features - done
+[0.803s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.980s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.038s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.199s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.364s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.376s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.380s] -- Added test 'lint_cmake' to check CMake code style
+[1.382s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.390s] -- Added test 'xmllint' to check XML markup files
+[1.395s] -- Configuring done
+[1.398s] -- Generating done
+[1.401s] -- Build files have been written to: /home/matteo-melzer/gazebo_test/build/onrobot_description
+[1.407s] Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/onrobot_ros/onrobot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/onrobot_description
+[1.410s] Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/onrobot_description -- -j2 -l2
+[1.485s] Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/onrobot_description -- -j2 -l2
+[1.485s] Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/onrobot_description
+[1.498s] -- Install configuration: ""
+[1.498s] -- Execute custom install script
+[1.500s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/launch/test.launch.py
+[1.514s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/launch/test_gazebo.launch.py
+[1.530s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/config/rg2_v1.yaml
+[1.548s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/config/rg6_v1.yaml
+[1.561s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/config/rg6_v2.yaml
+[1.576s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/materials.urdf.xacro
+[1.592s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/onrobot_rg.gazebo.xacro
+[1.606s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/onrobot_rg.srdf.xacro
+[1.621s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/onrobot_rg.transmission.xacro
+[1.636s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/onrobot_rg.urdf.xacro
+[1.653s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/onrobot_ros2_control.urdf.xacro
+[1.668s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/urdf/test.urdf.xacro
+[1.690s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/body.stl
+[1.712s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/finger_tip.stl
+[1.729s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/finger_tip_1.stl
+[1.743s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/finger_tip_2.stl
+[1.760s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/flex_finger.stl
+[1.775s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/moment_arm.stl
+[1.790s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/single_bracket.stl
+[1.805s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/collision/truss_arm.stl
+[1.820s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual/body.stl
+[1.836s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual/finger_tip.stl
+[1.851s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual/flex_finger.stl
+[1.867s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual/moment_arm.stl
+[1.884s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual/single_bracket.stl
+[1.896s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg2_v1/visual/truss_arm.stl
+[1.911s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/body.stl
+[1.926s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/body_.stl
+[1.943s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/finger_tip_1.stl
+[1.958s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/finger_tip_2.stl
+[1.973s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/flex_finger.stl
+[1.988s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/moment_arm.stl
+[2.001s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/safety_shield.stl
+[2.016s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/single_bracket.stl
+[2.029s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/collision/truss_arm.stl
+[2.043s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/body.stl
+[2.056s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/finger_tip.stl
+[2.072s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/flex_finger.stl
+[2.086s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/moment_arm.stl
+[2.098s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/safety_shield.stl
+[2.110s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/single_bracket.stl
+[2.123s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v1/visual/truss_arm.stl
+[2.135s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/body.stl
+[2.148s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/finger_tip_1.stl
+[2.162s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/finger_tip_2.stl
+[2.178s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/flex_finger.stl
+[2.198s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/moment_arm.stl
+[2.228s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/safety_shield.stl
+[2.245s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/single_bracket.stl
+[2.257s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/collision/truss_arm.stl
+[2.269s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/body.stl
+[2.283s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/finger_tip.stl
+[2.298s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/flex_finger.stl
+[2.310s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/moment_arm.stl
+[2.324s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/safety_shield.stl
+[2.336s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/single_bracket.stl
+[2.348s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/meshes/rg6_v2/visual/truss_arm.stl
+[2.361s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/rviz/urdf.rviz
+[2.375s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/world/test.sdf
+[2.391s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/ament_index/resource_index/package_run_dependencies/onrobot_description
+[2.402s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/ament_index/resource_index/parent_prefix_path/onrobot_description
+[2.415s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/environment/ament_prefix_path.sh
+[2.428s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/environment/ament_prefix_path.dsv
+[2.442s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/environment/path.sh
+[2.458s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/environment/path.dsv
+[2.472s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/local_setup.bash
+[2.487s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/local_setup.sh
+[2.500s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/local_setup.zsh
+[2.515s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/local_setup.dsv
+[2.527s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/package.dsv
+[2.541s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/ament_index/resource_index/packages/onrobot_description
+[2.554s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/cmake/onrobot_descriptionConfig.cmake
+[2.568s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/cmake/onrobot_descriptionConfig-version.cmake
+[2.584s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/onrobot_description/share/onrobot_description/package.xml
+[2.600s] Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/onrobot_description

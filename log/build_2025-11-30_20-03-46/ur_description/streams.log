@@ -1,0 +1,246 @@
+[0.030s] Invoking command in '/home/matteo-melzer/gazebo_test/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/ur_description
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.172s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.279s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.286s] -- Detecting CXX compiler ABI info
+[0.529s] -- Detecting CXX compiler ABI info - done
+[0.540s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.540s] -- Detecting CXX compile features
+[0.542s] -- Detecting CXX compile features - done
+[0.560s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.803s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.871s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.024s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.873s] -- Configuring done
+[1.886s] -- Generating done
+[1.896s] -- Build files have been written to: /home/matteo-melzer/gazebo_test/build/ur_description
+[1.908s] Invoked command in '/home/matteo-melzer/gazebo_test/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/matteo-melzer/gazebo_test/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matteo-melzer/gazebo_test/install/ur_description
+[1.909s] Invoking command in '/home/matteo-melzer/gazebo_test/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/ur_description -- -j2 -l2
+[1.999s] Invoked command in '/home/matteo-melzer/gazebo_test/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/matteo-melzer/gazebo_test/build/ur_description -- -j2 -l2
+[2.021s] Invoking command in '/home/matteo-melzer/gazebo_test/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/ur_description
+[2.045s] -- Install configuration: ""
+[2.046s] -- Execute custom install script
+[2.046s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/initial_positions.yaml
+[2.079s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[2.099s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[2.116s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[2.131s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[2.149s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[2.171s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[2.186s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[2.202s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[2.219s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur12e/default_kinematics.yaml
+[2.236s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur12e/joint_limits.yaml
+[2.254s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur12e/physical_parameters.yaml
+[2.267s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur12e/visual_parameters.yaml
+[2.281s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur15/default_kinematics.yaml
+[2.295s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur15/joint_limits.yaml
+[2.311s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur15/physical_parameters.yaml
+[2.326s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur15/visual_parameters.yaml
+[2.339s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[2.352s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[2.366s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[2.379s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[2.392s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur18/default_kinematics.yaml
+[2.406s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur18/joint_limits.yaml
+[2.418s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur18/physical_parameters.yaml
+[2.432s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur18/visual_parameters.yaml
+[2.447s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[2.462s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[2.479s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[2.491s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[2.505s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[2.520s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[2.534s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[2.551s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[2.567s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[2.584s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[2.598s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[2.612s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[2.626s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[2.641s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[2.654s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[2.670s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[2.685s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[2.694s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[2.707s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[2.718s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[2.734s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[2.744s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[2.757s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[2.771s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[2.784s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur7e/default_kinematics.yaml
+[2.798s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur7e/joint_limits.yaml
+[2.811s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur7e/physical_parameters.yaml
+[2.825s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur7e/visual_parameters.yaml
+[2.840s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur8long/default_kinematics.yaml
+[2.851s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur8long/joint_limits.yaml
+[2.867s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur8long/physical_parameters.yaml
+[2.882s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/config/ur8long/visual_parameters.yaml
+[2.894s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[2.909s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[2.922s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[2.937s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[2.950s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[2.964s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[2.978s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[2.996s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[3.008s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[3.024s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[3.041s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[3.055s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[3.078s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[3.096s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[3.112s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[3.129s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[3.145s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[3.161s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[3.180s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[3.194s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[3.208s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[3.230s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[3.262s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[3.293s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[3.307s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[3.321s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[3.333s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[3.347s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[3.369s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[3.385s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/LICENSE.txt
+[3.400s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/collision/base.stl
+[3.418s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/collision/forearm.stl
+[3.428s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/collision/shoulder.stl
+[3.446s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/collision/upperarm.stl
+[3.465s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/collision/wrist1.stl
+[3.499s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/collision/wrist2.stl
+[3.529s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/collision/wrist3.stl
+[3.559s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/visual/UR15_DIFF_8bit_2K.jpg
+[3.590s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/visual/base.dae
+[3.619s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/visual/forearm.dae
+[3.650s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/visual/shoulder.dae
+[3.681s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/visual/upperarm.dae
+[3.714s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/visual/wrist1.dae
+[3.744s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/visual/wrist2.dae
+[3.770s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur15/visual/wrist3.dae
+[3.799s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[3.826s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[3.858s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[3.887s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[3.915s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur18/LICENSE.txt
+[3.945s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur18/collision/forearm.stl
+[3.969s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur18/collision/upperarm.stl
+[3.999s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur18/visual/UR18_DIFF_8bit_2K.jpg
+[4.026s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur18/visual/forearm.dae
+[4.055s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur18/visual/upperarm.dae
+[4.083s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[4.113s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[4.140s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[4.161s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[4.206s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[4.227s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[4.251s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[4.276s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[4.295s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[4.310s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[4.337s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[4.361s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[4.387s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[4.417s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[4.442s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[4.467s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[4.481s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[4.507s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[4.525s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[4.544s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[4.572s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[4.590s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[4.607s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[4.623s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[4.640s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[4.658s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[4.679s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[4.709s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[4.730s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[4.744s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[4.758s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[4.785s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[4.804s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[4.826s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[4.853s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[4.870s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[4.900s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[4.921s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[4.949s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[4.963s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[4.980s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[5.009s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[5.023s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[5.039s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[5.057s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[5.085s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[5.112s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[5.129s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[5.147s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[5.161s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[5.181s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[5.197s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[5.222s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[5.247s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[5.276s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[5.297s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[5.321s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[5.352s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[5.378s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[5.410s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[5.438s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[5.464s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[5.494s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[5.519s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[5.546s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[5.575s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[5.604s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[5.633s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[5.656s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[5.669s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[5.681s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[5.693s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[5.718s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[5.735s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[5.748s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[5.774s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[5.785s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[5.805s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[5.830s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur8long/LICENSE.txt
+[5.853s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur8long/collision/forearm.stl
+[5.880s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur8long/collision/upperarm.stl
+[5.912s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur8long/visual/UR8Long_DIFF_8bit_2K.jpg
+[5.942s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur8long/visual/forearm.dae
+[5.970s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/meshes/ur8long/visual/upperarm.dae
+[6.002s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[6.033s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[6.064s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[6.090s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[6.121s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[6.150s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[6.179s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[6.213s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[6.245s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[6.276s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[6.307s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[6.325s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[6.347s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/environment/path.sh
+[6.358s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/environment/path.dsv
+[6.382s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/local_setup.bash
+[6.411s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/local_setup.sh
+[6.441s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/local_setup.zsh
+[6.477s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/local_setup.dsv
+[6.494s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/package.dsv
+[6.513s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[6.528s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[6.543s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[6.561s] -- Symlinking: /home/matteo-melzer/gazebo_test/install/ur_description/share/ur_description/package.xml
+[6.594s] Invoked command in '/home/matteo-melzer/gazebo_test/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matteo-melzer/gazebo_test/install/onrobot_rg_modbus_tcp:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control:/home/matteo-melzer/gazebo_test/install/onrobot_driver:/home/matteo-melzer/ros2_ws/install/py_srvcli:/home/matteo-melzer/ros2_ws/install/py_pubsub:/home/matteo-melzer/ws_moveit/install/moveit_configs_utils:/home/matteo-melzer/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/matteo-melzer/gazebo_test/build/ur_description

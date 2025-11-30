@@ -1,0 +1,27 @@
+[2.487s] Invoking command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_control': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_rg_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build --no-deps symlink_data
+[2.904s] running develop
+[3.283s] running egg_info
+[3.285s] creating onrobot_rg_control.egg-info
+[3.286s] writing onrobot_rg_control.egg-info/PKG-INFO
+[3.286s] writing dependency_links to onrobot_rg_control.egg-info/dependency_links.txt
+[3.286s] writing entry points to onrobot_rg_control.egg-info/entry_points.txt
+[3.288s] writing requirements to onrobot_rg_control.egg-info/requires.txt
+[3.288s] writing top-level names to onrobot_rg_control.egg-info/top_level.txt
+[3.289s] writing manifest file 'onrobot_rg_control.egg-info/SOURCES.txt'
+[3.292s] reading manifest file 'onrobot_rg_control.egg-info/SOURCES.txt'
+[3.294s] writing manifest file 'onrobot_rg_control.egg-info/SOURCES.txt'
+[3.299s] running build_ext
+[3.299s] Creating /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages/onrobot-rg-control.egg-link (link to .)
+[3.302s] Installing OnRobotRGController script to /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/onrobot_rg_control
+[3.303s] Installing OnRobotRGControllerServer script to /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/onrobot_rg_control
+[3.306s] 
+[3.306s] Installed /home/matteo-melzer/gazebo_test/build/onrobot_rg_control
+[3.307s] running symlink_data
+[3.307s] creating /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/share/ament_index
+[3.307s] creating /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/share/ament_index/resource_index
+[3.308s] creating /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/share/ament_index/resource_index/packages
+[3.308s] symbolically linking /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/resource/onrobot_rg_control -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/share/ament_index/resource_index/packages
+[3.308s] symbolically linking /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/package.xml -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/share/onrobot_rg_control
+[3.309s] creating /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/share/onrobot_rg_control/launch
+[3.309s] symbolically linking /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/launch/bringup.launch.py -> /home/matteo-melzer/gazebo_test/install/onrobot_rg_control/share/onrobot_rg_control/launch
+[3.386s] Invoked command in '/home/matteo-melzer/gazebo_test/build/onrobot_rg_control' returned '0': PYTHONPATH=/home/matteo-melzer/gazebo_test/build/onrobot_rg_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/matteo-melzer/gazebo_test/install/onrobot_rg_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/matteo-melzer/gazebo_test/build/onrobot_rg_control/build --no-deps symlink_data

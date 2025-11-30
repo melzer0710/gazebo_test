@@ -1,1 +1,0 @@
-/home/matteo-melzer/gazebo_test/src/realsense-ros/realsense2_camera/examples/launch_params_from_file/rs_launch_get_params_from_yaml.py

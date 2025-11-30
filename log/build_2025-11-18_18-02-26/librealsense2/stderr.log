@@ -1,2 +1,0 @@
-/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied
-/sbin/ldconfig.real: Can't create temporary cache file /etc/ld.so.cache~: Permission denied

@@ -24,9 +24,9 @@ def generate_launch_description():
     gazebo_launch_file = os.path.join(
         get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py'
     )
-    world_file = os.path.join(
-        get_package_share_directory('ur10e_gazebo_sim'), 'worlds', 'world1.world'
-    )
+    # world_file = os.path.join(
+    #     get_package_share_directory('ur10e_gazebo_sim'), 'worlds', 'world1.world'
+    # )
 
     moveit_config = (
         MoveItConfigsBuilder("custom_robot", package_name="ur10e_ft_rg2_moveit_config")
@@ -56,7 +56,7 @@ def generate_launch_description():
             'debug': 'false',
             'gui': 'true',
             'paused': 'true',
-            'world' : world_file
+            #'world' : world_file
         }.items()
     )
 

@@ -2,6 +2,7 @@
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/launch/spawn_ur10e_moveit.launch.py
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/launch/spawn_ur10e_ft_rg2.launch.py
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/launch/spawn_ur10e_control.launch.py
+/home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/launch/debug_camera.launch.py
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/launch/view_ur10e_ft_rg2.launch.py
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/launch/view_ur10e.launch.py
 /home/matteo-melzer/gazebo_test/install/ur10e_gazebo_sim/share/ur10e_gazebo_sim/urdf/rg2_gazebo_ros2_control.xacro

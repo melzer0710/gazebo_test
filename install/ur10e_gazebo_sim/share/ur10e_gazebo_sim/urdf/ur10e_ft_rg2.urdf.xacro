@@ -63,7 +63,7 @@
    <xacro:if value="${is_sim_gazebo or is_sim_ignition}">
      <link name="ground_plane">
        <visual>
-         <origin rpy="0 0 0" xyz="0 0 0"/>
+         <origin rpy="0 0 0" xyz="0 0 0.927"/>
          <geometry>
            <box size="5 5 0"/>
          </geometry>
@@ -72,7 +72,7 @@
          </material>
        </visual>
        <collision>
-         <origin rpy="0 0 0" xyz="0 0 0"/>
+         <origin rpy="0 0 0" xyz="0 0 0.927"/>
          <geometry>
            <box size="5 5 0"/>
          </geometry>
@@ -127,8 +127,28 @@
      <origin xyz="1.31950 0.57082 0.927" rpy="0 0 0" />          <!-- position robot in the world -->
    </xacro:ur_robot>
 
-    <xacro:sensor_d435i_gazebo parent="tool0" prefix="camera_">
-      <origin xyz="0.019 -0.07 0" rpy="1.57 -1.57 0"/>    <!-- Kamera Position und Orientierung-->
+    <link name="camera_mount_link">
+      <!-- <visual>
+        <geometry><box size="0.05 0.05 0.05"/></geometry>
+        <material name="red"><color rgba="1 0 0 1"/></material>
+      </visual>
+      <collision>
+        <geometry><box size="0.05 0.05 0.05"/></geometry>
+      </collision> -->
+      <inertial>
+        <mass value="0.1" /> <origin xyz="0 0 0" />
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+      </inertial>
+    </link>
+
+    <joint name="wrist_to_mount_joint" type="fixed">
+      <parent link="wrist_3_link" />
+      <child link="camera_mount_link" />
+      <origin xyz="0.019 -0.07 0.015" rpy="1.57 -1.57 0" />
+    </joint>
+
+    <xacro:sensor_d435i_gazebo parent="camera_mount_link">
+      <origin xyz="0 0 0" rpy="0 0 0"/> 
     </xacro:sensor_d435i_gazebo>
 
    <xacro:if value="$(arg sim_gazebo)">
