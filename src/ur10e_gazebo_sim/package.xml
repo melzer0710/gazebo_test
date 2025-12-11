@@ -13,6 +13,8 @@
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>trajectory_msgs</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>sensor_msg</depend>
   <depend>ur_description</depend>
   <depend>robot_state_publisher</depend>
   <depend>joint_state_publisher_gui</depend>

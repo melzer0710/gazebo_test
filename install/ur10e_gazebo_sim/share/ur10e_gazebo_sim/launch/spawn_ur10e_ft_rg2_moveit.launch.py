@@ -66,6 +66,13 @@ def generate_launch_description():
         "moveit.rviz",
     )
 
+    setup_matteo_path = os.path.join(
+        get_package_share_directory('ur10e_gazebo_sim'), 
+        'models', 
+        'setup_matteo', 
+        'model.sdf' 
+    )
+
     rviz_node = Node(
         package="rviz2",
         executable="rviz2",
@@ -90,6 +97,21 @@ def generate_launch_description():
             '-x', LaunchConfiguration('x'),
             '-y', LaunchConfiguration('y'),
             '-z', LaunchConfiguration('z')
+        ],
+        output='screen',
+    )
+
+    spawn_setup_matteo = Node(
+        package='gazebo_ros',
+        executable='spawn_entity.py',
+        name='spawn_setup_matteo',
+        arguments=[
+            '-entity', 'setup_matteo',      # Name in Gazebo
+            '-file', setup_matteo_path,     # Pfad zur Datei
+            '-x', '0.0',                    # X-Position (relativ zum World-Frame)
+            '-y', '1.317',                    # Y-Position
+            '-z', '0.0',                    # Z-Position
+            '-Y', '0.0'                     # Rotation (Yaw) in Radiant
         ],
         output='screen',
     )
@@ -211,6 +233,7 @@ def generate_launch_description():
     ld.add_action(gazebo)
     ld.add_action(controller_manager_node)  # has to be loaded first
     ld.add_action(spawn_the_robot)
+    ld.add_action(spawn_setup_matteo)
     ld.add_action(robot_state_publisher)
     # delay of the controllers
     ld.add_action(delay_move_group_node)
